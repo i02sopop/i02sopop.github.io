@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software | Ritho's blog]]></title>
+  <link href="http://blog.ritho.net/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://blog.ritho.net/"/>
+  <updated>2014-09-29T02:19:55+02:00</updated>
+  <id>http://blog.ritho.net/</id>
+  <author>
+    <name><![CDATA[Ritho]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Happy Birthday GNU!]]></title>
+    <link href="http://blog.ritho.net/blog/2013/09/30/GNU-30-years/"/>
+    <updated>2013-09-30T00:40:00+02:00</updated>
+    <id>http://blog.ritho.net/blog/2013/09/30/GNU-30-years</id>
+    <content type="html"><![CDATA[<p>
+Hi all,</p>
+
+
+
+
+<p>
+Some days ago the GNU project got 30 years, and, thinking about all the things
+that GNU and the free software have given to us I think it&#8217;s time to give them
+a present. It doesn&#8217;t have to be money (although they deserve it), but some code,
+an article, an speech explaining the virtues of the free software, or even
+installing a free software to a friend or a family member.</p>
+
+
+
+
+<p>
+In my case, I&#8217;m going to renew my membership to fsfeurope and I&#8217;m going to
+publish as free software a project that I&#8217;m doing with some partners. And you?
+Are you going to give a present to GNU/fsf?</p>
+
+
+
+
+<p>
+Happy Hacking</p>
+
+]]></content>
+  </entry>
+  
+</feed>

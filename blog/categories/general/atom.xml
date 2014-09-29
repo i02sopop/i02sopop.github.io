@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: General | Ritho's blog]]></title>
+  <link href="http://blog.ritho.net/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://blog.ritho.net/"/>
+  <updated>2014-09-29T02:19:55+02:00</updated>
+  <id>http://blog.ritho.net/</id>
+  <author>
+    <name><![CDATA[Ritho]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I'm Back!]]></title>
+    <link href="http://blog.ritho.net/blog/2013/09/17/back/"/>
+    <updated>2013-09-17T18:42:00+02:00</updated>
+    <id>http://blog.ritho.net/blog/2013/09/17/back</id>
+    <content type="html"><![CDATA[<p>
+Hi all!</p>
+
+
+
+
+<p>
+I know it hass been more than a year without writing anything, but, between my
+absorving work and the fact that I&#8217;m not really good with the written world (and
+a little bit of lazyness, why no admit it), I didn&#8217;t found the time to dedicate
+to the blog.</p>
+
+
+
+
+<p>
+Now I&#8217;m not going to give promises, but I&#8217;m going to try it hard to write at least
+one post per week, and who knows, maybe once I&#8217;ve started to write I can write
+more often and more fluently.</p>
+
+
+
+
+<p>
+Well, you&#8217;ll have notices from me during this week.</p>
+
+
+
+
+<p>
+Happy Hacking!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Latest Adquisitionsn]]></title>
+    <link href="http://blog.ritho.net/blog/2012/03/03/latest-adquisitions/"/>
+    <updated>2012-03-03T23:09:00+01:00</updated>
+    <id>http://blog.ritho.net/blog/2012/03/03/latest-adquisitions</id>
+    <content type="html"><![CDATA[<p>
+Hi all!</p>
+
+
+
+
+<p>
+I&#8217;m back from South America (I&#8217;ve been 6 weeks in Chile and Argentina)
+with some good and bad news. The bad new is that I&#8217;ve been stolen and
+I don&#8217;t have anymore some of my technical stuff, like a laptop, an
+external hard drive, a tablet and some other things. I&#8217;ve also lost
+some information, specially documentation and some projects of my
+studies and previous works.</p>
+
+
+
+
+<p>
+The good thing is that I&#8217;ve to restore some of the things I&#8217;ve lost,
+so I bought a desktop computer and a netbook. The desktop computer is
+an AMD with 8 cores of 3.1GHz each, 8 GB of RAM, a 1 GB graphic card
+with hdmi output and a 120 GB SSD hard drive. Yes, it&#8217;s a great
+computer, so it&#8217;s going to stay with me for a really long time.</p>
+
+
+
+
+<p>
+The other toy I&#8217;ve bought, the netbook, is an Asus eeepc of 10&#8217; with
+two cores of 1.67GHz each, 1 GB of RAM and a hard drive of 250 GB,
+more than enough to have mobility and a real computer for my
+travels. I think that between the two toys I&#8217;m going to be very
+productive, so I hope you&#8217;ll see me more active in my projects and
+around here.</p>
+
+
+
+
+<p>
+Happy Hacking!!!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RIP]]></title>
+    <link href="http://blog.ritho.net/blog/2011/10/30/RIP/"/>
+    <updated>2011-10-30T03:47:00+01:00</updated>
+    <id>http://blog.ritho.net/blog/2011/10/30/RIP</id>
+    <content type="html"><![CDATA[<p>
+As you may now by now, this month had passed out three important
+figures in the Computer Science world: Steve Jobs, Dennis Ritchie and
+John McCarthy.</p>
+
+
+
+
+<!--more-->
+
+
+
+
+<p>
+Steve Jobs is the most famous of them by the general public, but, at
+the same time, the less influential in the Computer Science world. His
+most important achieve has been to change the perception and use of
+the technology of a lot of people. He was capable of innovate and
+connect with the general public, but, in my point of view, he was
+wrong about oe essential thing, the openness of his products. During
+all his career, and specially during his last years, he has managed his
+products in a closed way (he even didn&#8217;t want to open the apple market
+to independent developers!) and I think he has missed the opportunity
+to really change the world if he would made free (as in freedom) at
+least any of his products.</p>
+
+
+
+
+<p>
+Dennis Ritchie, as many of the articles has said about him, is one of
+the original hackers. His great contribution (with other hackers) to
+our world include the C programming language (probably the most used
+programming language of all the times) and the Unix Operating System
+(the same used by apple to develop Mac OS and used as a reference by
+Richard M. Stallman and Linus Torvalds to develop GNU/Linux). This is
+a perfect example of how a free software can influence in the world
+(remember that Unix, at the beginnig, was open, and was after its
+success when companies and organizations started to launch his own
+closed version of Unix).</p>
+
+
+
+
+<p>
+The last one that have passed out is John McCarthy, creator of the
+Lisp programming language and of the term Artificial Intelligence.
+The Lisp programming language is less used than the C programming
+language, but it has been the most used programming language in
+Artificial Intelligence, in wich he is one of the major
+contributors. He also was the first to publicly suggest that computer
+time-sharing technology might lead to a future in which computing
+power and even specific applications could be sold through the utility
+business model.</p>
+
+
+
+
+<p>
+We&#8217;re going to miss them and we&#8217;ll try to continue their work the
+better we can.</p>
+
+
+
+
+<p>
+RIP</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[#SpanishRevolution, Part III]]></title>
+    <link href="http://blog.ritho.net/blog/2011/10/10/Spanish-Revolution-III/"/>
+    <updated>2011-10-10T00:22:00+02:00</updated>
+    <id>http://blog.ritho.net/blog/2011/10/10/Spanish-Revolution-III</id>
+    <content type="html"><![CDATA[<p>
+In the <a href="https://blogs.fsfe.org/palvarez/2011/09/14/spanishrevolution-part-ii/">second part</a> of this post I&#8217;ve explained the recent history and
+evolution of the social movements in Spain. In this post I&#8217;m going to
+focus in #15m (or Indignados) movement, how they&#8217;ve started, their
+proposals, things that, <b>IMHO</b>, they&#8217;ve done well, things to improve
+and where they should go.</p>
+
+
+
+
+<p>
+As I said in my previous post, Indignados movement has been influenced
+by the #nolesvotes movement, which shows both how to self-organize in
+a global way (the opposite of the traditional social movements has
+done historically, working at a neighborhood level or, at best, at a
+city level) and how the new technologies can help in this
+self-organization, but, obviously, it&#8217;s not the only movement that has
+influenced to #15M.</p>
+
+
+
+
+<p>
+In recent years the social movements in Spain have seen a revival in
+grassroots organization, whose work in the neighborhoods has been an
+essential breeding ground for movement #15M. These grassroots
+organizations have a participatory democracy based on people&#8217;s
+assemblies and consensus decision making. These horizontally
+structured assemblies are completely transparent and open to anyone
+who wants to participate. The groundwork has served not only to learn
+work techniques and methodologies assemblies, but also enabled them to
+know the people, know their concerns and problems and know how to work
+with them.</p>
+
+
+
+
+<p>
+Therefore, having these two movements as parents it&#8217;s not strange how
+quickly this movement has emerged and spread throughout all the country,
+in a way that only a few people could imagine.</p>
+
+
+
+
+<p>
+On January 2011, the digital platform Democracia real YA (one of the
+main actors in #15M movement) was created on Spanish social networks
+and forums. Having the support of organisations such as ATTAC,
+Intermon Oxfam, Ecologists in Action or Youth without Future, and
+using Twitter and Facebook it called &#8220;the unemployed, poorly paid, the
+subcontractors, the precarious, young people&#x2026;&#8221; to take the streets
+on 15 May in almost every city in Spain (you have at Wikipedia a
+comprehensive list of all the places that were called to take the
+streets on that day). That same day, small demonstrations in support
+of the Spanish ones were organised in Dublin, Lisbon, Amsterdam,
+Istanbul, Bologna, London and Paris.</p>
+
+
+
+
+<p>
+The first protest was called under the motto &#8220;we are not goods in the
+hands of politicians and bankers&#8221; and was focused on opposition to
+what the protesters called &#8220;antisocial means in the hands of bankers&#8221;,
+partly referring to the changes made in 2010 to contain the ongoing
+European sovereign debt crisis through bailout of the banks, which the
+Spanish society saw as responsible for the crisis, while at the same
+time the government kept announcing social program cutbacks.
+Protesters also demanded more democracy, a new electoral law and end
+to political corruption as well as other claims, such as banks
+nationalisation.</p>
+
+
+
+
+<p>
+The main demand of #15M is a radical change in Spanish politics, and,
+although #15M is a heterogeneous and ambiguous group, they share a
+strong rejection of unemployment, welfare cuts, Spanish politicians,
+the current two-party system in Spain between the Spanish Socialist
+Workers&#8217; Party and the People&#8217;s Party, as well as the current
+political system, capitalism, banks and bankers, political corruption
+and firmly support what they call basic rights: home, work, culture,
+health and education.</p>
+
+
+
+
+<p>
+As #nolesvotes, they don&#8217;t consider themselves to be represented by
+any traditional party nor favoured by the measures approved by
+politicians. If you want to know more about the #15M proposals and
+actions you can visit their <a href="http://movimiento15m.org/">official page</a> and read their <a href="http://movimiento15m.org/manifiesto-movimiento-15m-%C2%A1democracia-real-ya/#more-5">manifesto</a>.</p>
+
+
+
+
+<p>
+The impact of #15M has been bigger than anyone thought, because
+according to statistics published by RTVE (the Spanish public
+broadcasting company) between 6.5 and 8 million Spaniards have
+participated in these protests, an unthinkable thing at the beginning
+of the year, and in this kind of things you can&#8217;t trust the official
+information, so probably the participation has been even more.</p>
+
+
+
+
+<p>
+I think the most important thing that this movement has made is to
+make the spanish population aware that we can change the actual
+situation of our country, because a lot of people didn&#8217;t think they
+can do something to make a change.</p>
+
+
+
+
+<p>
+Also, I think that #15M can have a life much longer than much people
+can imagine, from one side because the changes they are proposing are
+big ones, and they need time to define both the changes we have to
+make to have a fairly society and the strategy to make this changes
+possible, and from the other side because they have reach a big impact
+in the population, a lot of people has been a part of #15M, and being
+part of a movement like this makes you feel that your contribution is
+important, and, although sometimes you can desperate, this is a
+feeling that once you have it you want to keep it.</p>
+
+
+
+
+<p>
+Seeing the movement from the outside (although I wanted to involve
+myself in the movement I couldn&#8217;t find the time until now) I think
+that sometimes they&#8217;ve enter in the politician&#8217;s game more than they
+needs, but, obviously, it&#8217;s a new and complex situation to handle and
+it can&#8217;t be perfect.</p>
+
+
+
+
+<p>
+The movement has passed some critical times and situations (like the
+time after the local elections or the Pope visit), and they&#8217;ll going
+to pass some more critical situations, but I think that the most
+important one is to handle the people&#8217;s mood (it&#8217;s a long path and a
+lot of people can desperate).</p>
+
+
+
+
+<p>
+Finally, although the movement can end in nothing, I think that the
+process is very important, not only because we&#8217;re trying to change
+important thinks, but also because we are changing the point of view
+of a lot of people that, until now, they didn&#8217;t realize they can make
+a change, and this is the seed of future revolutions.</p>
+
+
+
+
+<p>
+Happy Hacking!</p>
+
+
+
+
+<p>
+P.D.: You can access to information about the 15-M movement at the
+wikipedia <a href="https://secure.wikimedia.org/wikipedia/es/wiki/Movimiento_15-M">here</a>, <a href="https://secure.wikimedia.org/wikipedia/es/wiki/15M">here</a> (in spanish) and <a href="https://secure.wikimedia.org/wikipedia/en/wiki/2011_Spanish_protests">here</a> (in english).</p>
+
+
+
+
+<p>
+P.P.D.: All the ideas I expose here are personal opinions, comming
+only from myself, and here I don&#8217;t represent any of the organizations
+I belong to.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[#SpanishRevolution, Part II]]></title>
+    <link href="http://blog.ritho.net/blog/2011/09/14/Spanish-Revolution-II/"/>
+    <updated>2011-09-14T02:10:00+02:00</updated>
+    <id>http://blog.ritho.net/blog/2011/09/14/Spanish-Revolution-II</id>
+    <content type="html"><![CDATA[<p>
+In the <a href="https://blogs.fsfe.org/palvarez/2011/08/19/spanishrevolution-part-i/">first part</a> of this post I&#8217;ve explained the economical situation
+of Spain and how we&#8217;ve reached this situation. Now it&#8217;s the turn to
+explain a little bit the origins of the Indignados movement ant the
+recent history of the social movements in Spain.</p>
+
+
+
+
+<p>
+The Indignados movement (or #15M) born officially the 15 of May of
+2011, although I think the real begining started before. In order to
+understand better the origins of the #15M it&#8217;s better to explain a
+little bit the recent phistory of the social movements in Spain.</p>
+
+
+
+
+<p>
+As you might know, before the actual democracy Spain was headed by
+Francisco Franco, a dictator aligned ideologically with Hitler. Some
+years before his dead (1975) the social movements in Spain begans to
+be very strong, and, although they had to be subversive (the
+government was very represive even after the dead of Franco), they
+gain a lot of popularity, specially in the young people.</p>
+
+
+
+
+<p>
+After 1975 and during the 80&#8217;s Spain became into a cultural and
+political revolution, and a lot of political parties (included PSOE
+and the Comunist Party) and labor unions (CCOO, UGT, CNT, &#x2026;) were
+legalized. This was the golden epoch of the social movements in Spain,
+because a lot of people were conscious that it was important to be
+part of the (not only) political change that was happening in Spain
+and, a very important thing, they were a part of this changes, in part
+because the government were taking them into consideration and making
+changes in the way the social movements were saying.</p>
+
+
+
+
+<p>
+After that, during the final 80s and the 90s the political parties
+forgot about the people and began to govern for themselves and for the
+&#8220;markets&#8221; (a.k.a the rich people) and the social movements began to
+accommodate, partially because the social situation were much better
+than during the dictatorial period and partially because some state
+mechanisms made the social movements too dependents from the
+government charity, and in the moment that any organization depends
+on the government it has to do some things and leave to do other
+things to please them and survive.</p>
+
+
+
+
+<p>
+I think that the reaction to this circumstances come both from a new
+social movement surged in Spain (and in the world :)), the Free
+Software movement, that has become very strong sice the final 90s, and
+from the deterioration of the spanish life style, specially with the
+actual crisis environment.</p>
+
+
+
+
+<p>
+In the last years we&#8217;ve seen here in Spain a lot of movement against
+the software patents in Europe and agains some copyright laws that
+have emerged in the last years in Spain, and a big part of this
+movement has been lead by hacktivist that have been participated in
+the Free Software movement during several years.</p>
+
+
+
+
+<p>
+This movements have been organized dinamically, without a need of a
+phisical organization, and in several times during a specific period
+of time. This has made that the state, with his old mechanisms of
+working, couldn&#8217;t stop this kind of organization, that have made the
+enough noise to influence again in the political life of the country
+and in the spanish people.</p>
+
+
+
+
+<p>
+This was the kind of organization of #nolesvotes, the father of
+the #15m (or indignados) movement, who asks to vote in the municipal
+elections to any party but PSOE or PP, rised after the approval of an
+unfair copyright law by the two main political parties of
+Spain. Because of that #nolesvotes gained the support and/or
+comprehension of the population, being, in my point of view, a big
+success.</p>
+
+
+
+
+<p>
+To be continued&#x2026;</p>
+
+]]></content>
+  </entry>
+  
+</feed>

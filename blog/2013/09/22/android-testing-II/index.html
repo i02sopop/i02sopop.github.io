@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Make Tests on Android Projects II - Ritho&#8217;s blog</title>
+  <meta name="author" content="Ritho">
+
+  
+  <meta name="description" content="Hi all! As I promised more than a year ago ;) I'm going to continue the small tutorial about testing
+on Android. During this year the testing on &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.ritho.net/blog/2013/09/22/android-testing-II">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Ritho's blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Ritho&#8217;s blog</a></h1>
+  
+    <h2>A programming blog for developers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.duckduckgo.com/" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sites" value="blog.ritho.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search&hellip;"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Make Tests on Android Projects II</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-09-22T19:49:00+02:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2013</span></span> <span class='time'>7:49 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>
+Hi all!</p>
+
+<p>
+As I promised more than a year ago ;) I&#8217;m going to continue the small tutorial about testing
+on Android. During this year the testing on android has evolved a little bit and now we can
+see projects, like robotium, that, although they have some errors and features not (well)
+covered, helps you a lot in the testing process. Said that, let&#8217;s start!</p>
+
+<!--more-->
+
+<p>
+The first step to test an android application (apart from having the code of the android
+application, of course) is create a test project. For that we are going to use the command line,
+mainly because, although you can use very complete graphical editors that helps you to do much of
+the process automatically, I think it&#8217;s important to know where the things come from and why the
+things work in that way. So, the command line to create the test project (as we can check <a href="https://developer.android.com/tools/testing/testing_otheride.html">here</a>) is:</p>
+
+<p>
+$ android create test-project -m &lt;main-path&gt; -n &lt;project-name&gt; -p &lt;test-path&gt;</p>
+
+<p>
+Where main-path is the path to the project of the application under test, project-name is the name
+of the test project (not the name of the main project) and test-path is the directory where the test
+project is going to be located. A test project depends on the android project that is testing, so is
+going to compile against this project, recompiling (with a little bit of luck) all the source files
+of the original project that needs to (re)compile, that&#8217;s why we need to indicate the path of the
+main project under test.</p>
+
+<p>
+That also means that a test project is going to test only one application at a time, but it can be
+updated to change the path of the main project for the case you want to test another project with the
+same test project (for example, if you have two projects of the same application, one for a free
+version and other for a premium version, or if you have a base test project that you want to adapt to
+new applications).</p>
+
+<p>
+The test project doesn&#8217;t need to be located in any specific directory, so you can place it wherever you
+want in your filesystem, but take care if you move the test project and you&#8217;ve defined a relative path
+to the main project, because you&#8217;d need to update it.</p>
+
+<p>
+If you check the test project just created, you can see that it haves the same directory structure and
+build file contents as regular Android application project. That&#8217;s because it&#8217;s an actual Android
+application that use the testing and instrumentation framework and depends on other application to run
+(like an application that use a library).</p>
+
+<p>
+The test framework is an extension of the JUnit test framework that adds access to the Android system
+objects to test them, and the instrumentation framework is who actually execute the tests, starting the
+application at the beginning of each test suite, shutting down the application once the test suite is
+finished and who runs test by test of each test suite.</p>
+
+<p>
+Well, that&#8217;s enough for today. In the next post I&#8217;ll explain the compilation process of a test project
+(checking the options at the compilation files) and how to run both on test in particular and all the
+tests of the test project. In that way you can see the basic structure of a test.</p>
+
+<p>
+<b>To be continued&#x2026;</b></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Ritho</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2013-09-22T19:49:00+02:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2013</span></span> <span class='time'>7:49 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/android/'>android,</a>, <a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/java/'>java,</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.ritho.net/blog/2013/09/22/android-testing-II/" data-via="" data-counturl="http://blog.ritho.net/blog/2013/09/22/android-testing-II/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/09/17/back/" title="Previous Post: I'm Back!">&laquo; I&#8217;m Back!</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/09/30/GNU-30-years/" title="Next Post: Happy Birthday GNU!">Happy Birthday GNU! &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/10/26/android-testing-III/">Make Tests on Android Projects III</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/30/GNU-30-years/">Happy Birthday GNU!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/22/android-testing-II/">Make Tests on Android Projects II</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/17/back/">I&#8217;m Back!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/05/01/android-testing/">Make Tests on Android Projects I</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/i02sopop">@i02sopop</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'i02sopop',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/i02sopop?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Ritho -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

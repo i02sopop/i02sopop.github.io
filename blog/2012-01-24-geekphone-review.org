@@ -1,0 +1,35 @@
+#+TITLE: Geekphone Zero review
+#+DATE: 17:15, 2012-01-24
+#+SETUPFILE: ~/.emacs.d/setupfile.org
+#+JEKYLL_AUTHOR: Pablo Alvarez de Sotomayor Posadillo
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: Android
+#+JEKYLL_COMMENTS: true
+#+JEKYLL_PUBLISHED: true
+#+AUTHOR: Pablo Álvarez de Sotomayor Posadillo
+#+EMAIL: palvarez@ritho.net
+
+Hi all!
+
+First of all, please apologize for not publishing anything in three
+months, but both because of work (with several travels in the middle)
+and personal projects I didn't have so much time to write.
+
+To celebrate my birthday (I'm 30!!!!) I'm going to write a review of
+my new cell phone, the [[http://www.geeksphone.com/es/moviles/zero/][Geekphone Zero]]. I got the phone at christmas
+and I've to say that I'm very happy with it, because it works pretty
+well (with some minor bugs related to the version of Android I'm
+using), having a great quality/price rate.
+
+Its price is 165 euros free (without a phone company contract), a
+reasonable price to a smartphone with Android (a high-end smartphone
+cost perfectly 400-500 euros free), and with all your basics
+covered (wifi, usb, bluetooth, gps, ...) and, with the last version of
+Android 2.3, it goes pretty smooth.
+
+One of the major advantages of the phone is that you have root access,
+so you can update it without losing the warranty. In fact, the company
+work closely with the CyanogenMod group, so there is no problem to
+install new updates of the phone from the Cyanogen ROM application.
+
+Happy Hacking!

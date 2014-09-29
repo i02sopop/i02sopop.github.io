@@ -1,0 +1,29 @@
+#+TITLE: Coconet 1.0.2 is out!
+#+DATE: 16:51, 2012-05-01
+#+SETUPFILE: ~/.emacs.d/setupfile.org
+#+JEKYLL_AUTHOR: Pablo Alvarez de Sotomayor Posadillo
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: projects, coconet, development
+#+JEKYLL_COMMENTS: true
+#+JEKYLL_PUBLISHED: true
+#+AUTHOR: Pablo Álvarez de Sotomayor Posadillo
+#+EMAIL: palvarez@ritho.net
+
+Hi all!
+
+We have a new release of Coconet, in this case the version  1.0.2. In
+this step I've finished the translations into english of all the code
+(global variables, functions and structs) and I've made some extra
+optimizations of the code (nothing important).
+
+In the next days/weeks (I've to work and to advance in other
+projects :)) I'm going to port the project compilation process to
+autoconf and automake. I want also to start the refactoring of the
+code to remove at least some of the global variables and make some
+more important optimizations of it.
+
+If you want to try the latest stable version you can download it from
+[[https://github.com/i02sopop/coconet/tarball/v1.0.2][here]], and if you want to checkout the code from the repository and
+collaborate with me please visit the [[https://github.com/i02sopop/coconet][github repository page]].
+
+Happy Hacking!!!

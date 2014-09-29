@@ -1,0 +1,31 @@
+#+TITLE: I'm Back!
+#+DATE: 18:42, 2013-09-17
+#+SETUPFILE: ~/.emacs.d/setupfile.org
+#+JEKYLL_AUTHOR: Pablo Alvarez de Sotomayor Posadillo
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: General
+#+JEKYLL_COMMENTS: true
+#+JEKYLL_PUBLISHED: true
+#+AUTHOR: Pablo Álvarez de Sotomayor Posadillo
+#+EMAIL: palvarez@ritho.net
+
+Hi all!
+
+I know it hass been more than a year without writing anything, but, between my
+absorving work and the fact that I'm not really good with the written world (and
+a little bit of lazyness, why no admit it), I didn't found the time to dedicate
+to the blog.
+
+Now I'm not going to give promises, but I'm going to try it hard to write at least
+one post per week, and who knows, maybe once I've started to write I can write
+more often and more fluently.
+
+Well, you'll have notices from me during this week.
+
+Happy Hacking!
+
+
+
+
+
+

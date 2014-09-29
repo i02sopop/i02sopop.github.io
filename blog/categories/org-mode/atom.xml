@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Org-mode | Ritho's blog]]></title>
+  <link href="http://blog.ritho.net/blog/categories/org-mode/atom.xml" rel="self"/>
+  <link href="http://blog.ritho.net/"/>
+  <updated>2014-09-29T02:19:55+02:00</updated>
+  <id>http://blog.ritho.net/</id>
+  <author>
+    <name><![CDATA[Ritho]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Org2blog, La Herramienta De Emacs Para Bloguear]]></title>
+    <link href="http://blog.ritho.net/blog/2011/09/14/org2blog-es/"/>
+    <updated>2011-09-14T19:41:00+02:00</updated>
+    <id>http://blog.ritho.net/blog/2011/09/14/org2blog-es</id>
+    <content type="html"><![CDATA[<p>
+¡Buenas a todos desde Brasil!</p>
+
+
+
+
+<p>
+Hace algunos días descubrí una herramienta que me puede ayudar a
+bloguear con bastante más frecuencia, Org2Blog. Es básicamente un
+plugin del paquete org para publicar posts desde ficheros org con
+emacs. No he usado anteriormente org-mode, asi que he estado
+investigando un poco y he podido comprobar que no es sólo un paquete
+para publicar entradas en el blog, sino que además es una herramienta
+para administrar tu agenda y tu lista de cosas poor hacer, así que he
+estado unos días configurándolo y me da la impresión de que lo voy a
+usar bastante y me va a ser de gran ayuda.</p>
+
+
+
+
+<p>
+La parte de blog parece ser bastante sencilla, porque puedes definir
+el post con unas cuantas etiquetas sencillas de recordar y no define
+ningún formato extraño para escribir el post (como hacen muchos
+wikis). Tu sólo te tienes que ocupar de escribir el post en texto
+<b>plano</b> y el paquete se las arregla para convertirlo en tu entrada html.</p>
+
+
+
+
+<p>
+Aunque creo que se puede usar para otros blogs distintos de Wordpress,
+te recomiendo que mires que paquete funciona mejor para tu blog (por
+ejemplo, para blogger hay un paquete que parece funcionar mejor que
+este) antes de intentar volverte loco configurando este.</p>
+
+
+
+
+<p>
+Una de las cosas que quiero probar en los próximos días es la
+integración con Atom, ya que esa integración se hace con otro paquete
+y hasta ahora no he conseguido hacerlo funcionar.</p>
+
+
+
+
+<p>
+Espero poder bloguear mucho mas con esta herramienta, porque una de
+las cosas que odio de los blogs es tener que estar conectado y con un
+navegador abierto para escribir una entrada.</p>
+
+
+
+
+<p>
+Happy Hacking!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Org2blog, the Emacs Blogging Experience]]></title>
+    <link href="http://blog.ritho.net/blog/2011/09/14/org2blog-en/"/>
+    <updated>2011-09-14T19:41:00+02:00</updated>
+    <id>http://blog.ritho.net/blog/2011/09/14/org2blog-en</id>
+    <content type="html"><![CDATA[<p>
+Hi from Brasil!</p>
+
+
+
+
+<p>
+Some days ago I&#8217;ve discovered a tool that can help me to blog more
+frequently, Org2Blog. It&#8217;s basically a plugin for the org package to
+publish posts from org files in emacs. I didn&#8217;t used previously
+org-mode, so I&#8217;ve investigated a bit about it and I found that I can
+use it not only for blog posting, but also to manage your agenda and
+todo list, so I&#8217;ve configured it out and I think I&#8217;m going to use it a
+lot.</p>
+
+
+
+
+<p>
+The blogging part seems to be pretty easy, because you can define your
+post entry with a few and easy to remember tags and it doesn&#8217;t define
+any weird format to write (like a lot of wiki pages). You only have to
+write your post in <b>plain</b> text and the package manage to convert it
+to your html entry.</p>
+
+
+
+
+<p>
+Although I think you can use it not only for Wordpress, I recomend you
+to search for other packages if you&#8217;re using other blog engine (for
+example, there is a package that works better with blogger that seems to work
+better than this one).</p>
+
+
+
+
+<p>
+One of the thinks that I want to try in the next few days is the
+integration of org2blog with atom. This integration is made by other
+package and I couldn&#8217;t do it work in the last days.</p>
+
+
+
+
+<p>
+I hope to blog much more with this tool, cause one of the things that
+I hate of blogging is the necessity of being connected and with a
+browser opened to post an entry.</p>
+
+
+
+
+<p>
+Happy Hacking!</p>
+
+]]></content>
+  </entry>
+  
+</feed>

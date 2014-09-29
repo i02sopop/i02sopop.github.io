@@ -1,0 +1,54 @@
+#+TITLE: RIP
+#+DATE: 03:47, 2011-10-30
+#+SETUPFILE: ~/.emacs.d/setupfile.org
+#+JEKYLL_AUTHOR: Pablo Alvarez de Sotomayor Posadillo
+#+JEKYLL_LAYOUT: post
+#+JEKYLL_CATEGORIES: General
+#+JEKYLL_COMMENTS: true
+#+JEKYLL_PUBLISHED: true
+#+AUTHOR: Pablo Álvarez de Sotomayor Posadillo
+#+EMAIL: palvarez@ritho.net
+
+As you may now by now, this month had passed out three important
+figures in the Computer Science world: Steve Jobs, Dennis Ritchie and
+John McCarthy.
+
+#+HTML: <!--more-->
+
+Steve Jobs is the most famous of them by the general public, but, at
+the same time, the less influential in the Computer Science world. His
+most important achieve has been to change the perception and use of
+the technology of a lot of people. He was capable of innovate and
+connect with the general public, but, in my point of view, he was
+wrong about oe essential thing, the openness of his products. During
+all his career, and specially during his last years, he has managed his
+products in a closed way (he even didn't want to open the apple market
+to independent developers!) and I think he has missed the opportunity
+to really change the world if he would made free (as in freedom) at
+least any of his products.
+
+Dennis Ritchie, as many of the articles has said about him, is one of
+the original hackers. His great contribution (with other hackers) to
+our world include the C programming language (probably the most used
+programming language of all the times) and the Unix Operating System
+(the same used by apple to develop Mac OS and used as a reference by
+Richard M. Stallman and Linus Torvalds to develop GNU/Linux). This is
+a perfect example of how a free software can influence in the world
+(remember that Unix, at the beginnig, was open, and was after its
+success when companies and organizations started to launch his own
+closed version of Unix).
+
+The last one that have passed out is John McCarthy, creator of the
+Lisp programming language and of the term Artificial Intelligence.
+The Lisp programming language is less used than the C programming
+language, but it has been the most used programming language in
+Artificial Intelligence, in wich he is one of the major
+contributors. He also was the first to publicly suggest that computer
+time-sharing technology might lead to a future in which computing
+power and even specific applications could be sold through the utility
+business model.
+
+We're going to miss them and we'll try to continue their work the
+better we can.
+
+RIP
