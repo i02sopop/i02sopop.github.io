@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Android, | Ritho's blog]]></title>
+  <title><![CDATA[Android | Ritho's blog]]></title>
   <link href="http://blog.ritho.net/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://blog.ritho.net/"/>
-  <updated>2014-09-29T02:19:55+02:00</updated>
+  <updated>2014-09-29T03:35:41+02:00</updated>
   <id>http://blog.ritho.net/</id>
   <author>
     <name><![CDATA[Ritho]]></name>
@@ -263,6 +263,60 @@ tutorial about how to make some tests to your Android application</p>
 
 <p>
 <b>To be continued&#x2026;</b></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Geekphone Zero Review]]></title>
+    <link href="http://blog.ritho.net/blog/2012/01/24/geekphone-review/"/>
+    <updated>2012-01-24T17:15:00+01:00</updated>
+    <id>http://blog.ritho.net/blog/2012/01/24/geekphone-review</id>
+    <content type="html"><![CDATA[<p>
+Hi all!</p>
+
+
+
+
+<p>
+First of all, please apologize for not publishing anything in three
+months, but both because of work (with several travels in the middle)
+and personal projects I didn&#8217;t have so much time to write.</p>
+
+
+
+
+<p>
+To celebrate my birthday (I&#8217;m 30!!!!) I&#8217;m going to write a review of
+my new cell phone, the <a href="http://www.geeksphone.com/es/moviles/zero/">Geekphone Zero</a>. I got the phone at christmas
+and I&#8217;ve to say that I&#8217;m very happy with it, because it works pretty
+well (with some minor bugs related to the version of Android I&#8217;m
+using), having a great quality/price rate.</p>
+
+
+
+
+<p>
+Its price is 165 euros free (without a phone company contract), a
+reasonable price to a smartphone with Android (a high-end smartphone
+cost perfectly 400-500 euros free), and with all your basics
+covered (wifi, usb, bluetooth, gps, &#x2026;) and, with the last version of
+Android 2.3, it goes pretty smooth.</p>
+
+
+
+
+<p>
+One of the major advantages of the phone is that you have root access,
+so you can update it without losing the warranty. In fact, the company
+work closely with the CyanogenMod group, so there is no problem to
+install new updates of the phone from the Cyanogen ROM application.</p>
+
+
+
+
+<p>
+Happy Hacking!</p>
 
 ]]></content>
   </entry>

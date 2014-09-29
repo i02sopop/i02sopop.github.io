@@ -3,7 +3,7 @@
 #+SETUPFILE: ~/.emacs.d/setupfile.org
 #+JEKYLL_AUTHOR: Pablo Alvarez de Sotomayor Posadillo
 #+JEKYLL_LAYOUT: post
-#+JEKYLL_CATEGORIES: GNU, Free software
+#+JEKYLL_CATEGORIES: [GNU, Free software]
 #+JEKYLL_COMMENTS: true
 #+JEKYLL_PUBLISHED: true
 #+AUTHOR: Pablo Álvarez de Sotomayor Posadillo

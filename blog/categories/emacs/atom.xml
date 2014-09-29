@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Emacs, | Ritho's blog]]></title>
+  <title><![CDATA[Emacs | Ritho's blog]]></title>
   <link href="http://blog.ritho.net/blog/categories/emacs/atom.xml" rel="self"/>
   <link href="http://blog.ritho.net/"/>
-  <updated>2014-09-29T02:19:55+02:00</updated>
+  <updated>2014-09-29T03:35:41+02:00</updated>
   <id>http://blog.ritho.net/</id>
   <author>
     <name><![CDATA[Ritho]]></name>
