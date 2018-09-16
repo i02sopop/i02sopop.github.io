@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[UHK | Ritho's blog]]></title>
+  <link href="https://blog.ritho.net/category/uhk/feed.xml" rel="self"/>
+  <link href="https://blog.ritho.net/"/>
+  <updated>2018-09-15T21:05:05-05:00</updated>
+  <id>https://blog.ritho.net/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[palvarez@ritho.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[UHK Keyboard review]]></title>
+    <link href="https://blog.ritho.net/uhk/2018/09/15/uhl-keyboard.html"/>
+    <updated>2018-09-15T00:00:00-05:00</updated>
+    <id>https://blog.ritho.net/uhk/2018/09/15/uhl-keyboard</id>
+    <content type="html"><![CDATA[<p>
+Short after I came to Mexico to work, in December 2015, I found a project in
+Crowd Supply for a new keyboard that draw my attention, the Ultimate Hacking
+Keyboard (a.k.a <a href="https://ultimatehackingkeyboard.com/">UHK</a>), and I decided to buy one. The characteristics that
+impressed me the most were that it was a mechanical keyboard (I'm a fan of
+mechanical keyboards) and, more important, it could split in two halves.
+</p>
+
+<p>
+After a long wait (its delivery was delayed for more than two years) I can
+say I'm very happy with my acquisition. It's not the perfect keyboard, but
+it's quite close. The thing I miss the most from the keyboard are some extra
+keys, like the escape key or the arrow keys, but, since it's easily configurable
+via an agent provided by the company that make them (it's available for linux,
+MacOS and Windows, which is something to appreciate), I'll be doing some changes
+in order to be more and more comfortable with it.
+</p>
+
+<p>
+As I suspected, the fact that is a mechanical keyboard make it very gentle with
+my fingers, and the fact that I can split it and orient it with several sideboards
+make me feel more natural in my posture when I write with the UHK. It also comes
+with a wood palm rest that is comfortable for my wrist, and the size is compact
+but not too small, so I can move it around from my apartment to my office in
+my bag and, at the same time, is not too small that I type several keys at the
+same time.
+</p>
+
+<p>
+I know it's not a cheap keyboard, but the quality worth it, and the agent, the
+keyboard firmware and its schematics are free (as in Free Software), so you are
+not only buying a great keyboard, but supporting the Free Software and Hardware
+movement, apart from a honest business. I also appreciate a lot the good
+communication the UHK makers have, since they have shared all the process of
+building the keyboard and the different difficulties they have found, it's
+not common to find a project that open in all their path from the original
+idea to the final product.
+</p>
+
+<p>
+The only thing I'm waiting now for is the extensions I ordered with the keyboard
+itself, one with a trackball to attach the mouse in the keyboard and another
+one with three extra keys that I plan to use to define some macros to make more
+automatic some recurrent tasks.
+</p>
+
+<p>
+Happy Hacking!
+</p>
+]]></content>
+  </entry>
+  
+</feed>
