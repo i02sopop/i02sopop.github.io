@@ -7,9 +7,74 @@ In this blog I&#39;ll write both technical posts and personal opinions, but I&#3
 </description>
     <link>https://blog.ritho.net/</link>
     <atom:link href="https://blog.ritho.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Sep 2018 19:10:32 -0500</pubDate>
-    <lastBuildDate>Fri, 14 Sep 2018 19:10:32 -0500</lastBuildDate>
+    <pubDate>Sat, 15 Sep 2018 21:05:05 -0500</pubDate>
+    <lastBuildDate>Sat, 15 Sep 2018 21:05:05 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>UHK Keyboard review</title>
+        <description>&lt;p&gt;
+Short after I came to Mexico to work, in December 2015, I found a project in
+Crowd Supply for a new keyboard that draw my attention, the Ultimate Hacking
+Keyboard (a.k.a &lt;a href=&quot;https://ultimatehackingkeyboard.com/&quot;&gt;UHK&lt;/a&gt;), and I decided to buy one. The characteristics that
+impressed me the most were that it was a mechanical keyboard (I&#39;m a fan of
+mechanical keyboards) and, more important, it could split in two halves.
+&lt;/p&gt;
+
+&lt;p&gt;
+After a long wait (its delivery was delayed for more than two years) I can
+say I&#39;m very happy with my acquisition. It&#39;s not the perfect keyboard, but
+it&#39;s quite close. The thing I miss the most from the keyboard are some extra
+keys, like the escape key or the arrow keys, but, since it&#39;s easily configurable
+via an agent provided by the company that make them (it&#39;s available for linux,
+MacOS and Windows, which is something to appreciate), I&#39;ll be doing some changes
+in order to be more and more comfortable with it.
+&lt;/p&gt;
+
+&lt;p&gt;
+As I suspected, the fact that is a mechanical keyboard make it very gentle with
+my fingers, and the fact that I can split it and orient it with several sideboards
+make me feel more natural in my posture when I write with the UHK. It also comes
+with a wood palm rest that is comfortable for my wrist, and the size is compact
+but not too small, so I can move it around from my apartment to my office in
+my bag and, at the same time, is not too small that I type several keys at the
+same time.
+&lt;/p&gt;
+
+&lt;p&gt;
+I know it&#39;s not a cheap keyboard, but the quality worth it, and the agent, the
+keyboard firmware and its schematics are free (as in Free Software), so you are
+not only buying a great keyboard, but supporting the Free Software and Hardware
+movement, apart from a honest business. I also appreciate a lot the good
+communication the UHK makers have, since they have shared all the process of
+building the keyboard and the different difficulties they have found, it&#39;s
+not common to find a project that open in all their path from the original
+idea to the final product.
+&lt;/p&gt;
+
+&lt;p&gt;
+The only thing I&#39;m waiting now for is the extensions I ordered with the keyboard
+itself, one with a trackball to attach the mouse in the keyboard and another
+one with three extra keys that I plan to use to define some macros to make more
+automatic some recurrent tasks.
+&lt;/p&gt;
+
+&lt;p&gt;
+Happy Hacking!
+&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Sep 2018 00:00:00 -0500</pubDate>
+        <link>https://blog.ritho.net/uhk/2018/09/15/uhl-keyboard.html</link>
+        <guid isPermaLink="true">https://blog.ritho.net/uhk/2018/09/15/uhl-keyboard.html</guid>
+        
+        <category>UHK</category>
+        
+        <category>Keyboard</category>
+        
+        
+        <category>UHK</category>
+        
+      </item>
     
       <item>
         <title>Kubernetes preview</title>
@@ -489,46 +554,6 @@ Happy Hacking!!!&lt;/p&gt;
         <category>Coconet</category>
         
         <category>Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Latest adquisitionsn</title>
-        <description>&lt;p&gt;
-Hi all!&lt;/p&gt;
-
-&lt;p&gt;
-I&#39;m back from South America (I&#39;ve been 6 weeks in Chile and Argentina)
-with some good and bad news. The bad new is that I&#39;ve been stolen and
-I don&#39;t have anymore some of my technical stuff, like a laptop, an
-external hard drive, a tablet and some other things. I&#39;ve also lost
-some information, specially documentation and some projects of my
-studies and previous works.&lt;/p&gt;
-
-&lt;p&gt;
-The good thing is that I&#39;ve to restore some of the things I&#39;ve lost,
-so I bought a desktop computer and a netbook. The desktop computer is
-an AMD with 8 cores of 3.1GHz each, 8 GB of RAM, a 1 GB graphic card
-with hdmi output and a 120 GB SSD hard drive. Yes, it&#39;s a great
-computer, so it&#39;s going to stay with me for a really long time.&lt;/p&gt;
-
-&lt;p&gt;
-The other toy I&#39;ve bought, the netbook, is an Asus eeepc of 10&#39; with
-two cores of 1.67GHz each, 1 GB of RAM and a hard drive of 250 GB,
-more than enough to have mobility and a real computer for my
-travels. I think that between the two toys I&#39;m going to be very
-productive, so I hope you&#39;ll see me more active in my projects and
-around here.&lt;/p&gt;
-
-&lt;p&gt;
-Happy Hacking!!!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 03 Mar 2012 23:09:00 -0600</pubDate>
-        <link>https://blog.ritho.net/general/2012/03/03/latest-adquisitions.html</link>
-        <guid isPermaLink="true">https://blog.ritho.net/general/2012/03/03/latest-adquisitions.html</guid>
-        
-        
-        <category>General</category>
         
       </item>
     
