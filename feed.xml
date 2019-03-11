@@ -1,15 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ritho&#39;s blog</title>
-    <description>My name is Pablo Alvarez de Sotomayor Posadillo, and I’m a Free Software activist from Cordoba (Spain). I&#39;m currently living in Mexico City, and I&#39;m currently working on Segundamano Mexico, which it&#39;s part of Schibsted Classifieds Media.
-In this blog I&#39;ll write both technical posts and personal opinions, but I&#39;ll try to focus on the technical posts as much as possible. This is my personal blog, so every opinion I write here is my own personal opinion. If you want to know a little more about me you can visit
+    <title>Ritho's blog</title>
+    <description>My name is Pablo Alvarez de Sotomayor Posadillo, and I’m a Free Software activist from Cordoba (Spain). I'm currently living in Mexico City, and I'm currently working on Segundamano Mexico, which it's part of Schibsted Classifieds Media.
+In this blog I'll write both technical posts and personal opinions, but I'll try to focus on the technical posts as much as possible. This is my personal blog, so every opinion I write here is my own personal opinion. If you want to know a little more about me you can visit
 </description>
     <link>https://blog.ritho.net/</link>
     <atom:link href="https://blog.ritho.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Sep 2018 22:05:54 -0500</pubDate>
-    <lastBuildDate>Sat, 15 Sep 2018 22:05:54 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Sun, 10 Mar 2019 23:33:15 -0600</pubDate>
+    <lastBuildDate>Sun, 10 Mar 2019 23:33:15 -0600</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>How to build your own perl module distribution</title>
+        <description>&lt;p&gt;
+Every time I have the chance of programming in Perl I enjoy more, because it's a
+language that adapts to my needs very easily, and sometimes I want to create a
+module to reuse some of the functionality that repeats over and over in my perl
+scripts, but until not long ago I have never known how to prepare my perl modules
+in order to build and install them easily in my computers.
+&lt;/p&gt;
+
+&lt;p&gt;
+Recently I have finished reading the O'Reilly book &lt;a href=&quot;https://www.intermediateperl.com/about/&quot;&gt;Intermediate Perl&lt;/a&gt;, that contains
+a specific chapter on how to build your modules to be able to distribute them and
+another one on how to publish your package in CPAN, so I want to summarize here what
+I have learned in order both to have my own notes and don't forget about it and to
+share my experience with you.
+&lt;/p&gt;
+
+&lt;p&gt;
+The first thing to do when you want to build your own perl module distribution is
+to initialize the first module you want to develop. For that you can use
+&lt;b&gt;&lt;i&gt;module-starter&lt;/i&gt;&lt;/b&gt;, which is a simple starter kit for any module. To install it
+&lt;b&gt;&lt;i&gt;CPAN&lt;/i&gt;&lt;/b&gt; is your friend:
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-sh&quot;&gt;cpan -i Module::Starter
+cpan -i Module::Starter::AddModule
+cpan -i Module::Build
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Once installed you can use the command &lt;b&gt;&lt;i&gt;module-starter&lt;/i&gt;&lt;/b&gt; to create the basic
+structure of the module:
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-sh&quot;&gt;module-starter --mb --module=&lt;span style=&quot;color: #ffa07a;&quot;&gt;&quot;ModuleName&quot;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+This command creates a new subdirectory called &lt;b&gt;&lt;i&gt;ModuleName&lt;/i&gt;&lt;/b&gt; with the basic
+structure of the module, including the directory &lt;b&gt;&lt;i&gt;t&lt;/i&gt;&lt;/b&gt; for tests, the directory
+&lt;b&gt;&lt;i&gt;lib&lt;/i&gt;&lt;/b&gt; with the module file &lt;b&gt;&lt;i&gt;ModuleName.pm&lt;/i&gt;&lt;/b&gt;, the perl script &lt;b&gt;&lt;i&gt;Build.PL&lt;/i&gt;&lt;/b&gt; with
+configurations to generate the module distribution (something like a Makefile) and
+the script &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; to generate the module distribution. To build the module
+itself the most common commands are:
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-sh&quot;&gt;perl Build.PL
+./Build
+./Build test
+./Build disttest
+./Build dist
+./Build install
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+The first command, &lt;b&gt;&lt;i&gt;perl Build.PL&lt;/i&gt;&lt;/b&gt;, is going to update the &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; script
+when any configuration changes (if you add a new module or change the version
+number, for example). After the &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; script is updated you can use it to
+build the module, test it, run the tests for the distribution package, generate
+a distribution package or install it in your system.
+&lt;/p&gt;
+
+&lt;p&gt;
+The module generated with &lt;b&gt;&lt;i&gt;module-starter&lt;/i&gt;&lt;/b&gt; have the default structure for any
+perl module, including the &lt;b&gt;&lt;i&gt;perldoc&lt;/i&gt;&lt;/b&gt; documentation section, the code that the
+module includes and the end of the module itself, so it's ready for you to add
+the code and put the proper documentation.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you want to add a new module to the distribution you can add it with the next
+command:
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-sh&quot;&gt;module-starter --module=&lt;span style=&quot;color: #ffa07a;&quot;&gt;&quot;ModuleName2&quot;&lt;/span&gt; --dist=.
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+As you see, the command is pretty similar to the first one used to generate the
+distribution, but with a new argument, &lt;b&gt;&lt;i&gt;&amp;#x2013;dist=.&lt;/i&gt;&lt;/b&gt;, which indicates that the
+module is going to be added to the distribution located in the current directory.
+If you want to see more documentation on the building process you can check the
+&lt;a href=&quot;https://metacpan.org/pod/Module::Build&quot;&gt;Module::Build documentation&lt;/a&gt;, including the configuration options for &lt;b&gt;&lt;i&gt;Build.PL&lt;/i&gt;&lt;/b&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+Once you are happy with your distribution, you can publish it to CPAN, which is
+the subject for the next blog entry.
+&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 -0600</pubDate>
+        <link>https://blog.ritho.net/perl/2019/03/10/perl-distribution.html</link>
+        <guid isPermaLink="true">https://blog.ritho.net/perl/2019/03/10/perl-distribution.html</guid>
+        
+        <category>Perl</category>
+        
+        <category>Programming</category>
+        
+        
+        <category>Perl</category>
+        
+      </item>
     
       <item>
         <title>UHK Keyboard review</title>
@@ -17,17 +129,17 @@ In this blog I&#39;ll write both technical posts and personal opinions, but I&#3
 Short after I came to Mexico to work, in December 2015, I found a project in
 Crowd Supply for a new keyboard that draw my attention, the Ultimate Hacking
 Keyboard (a.k.a &lt;a href=&quot;https://ultimatehackingkeyboard.com/&quot;&gt;UHK&lt;/a&gt;), and I decided to buy one. The characteristics that
-impressed me the most were that it was a mechanical keyboard (I&#39;m a fan of
+impressed me the most were that it was a mechanical keyboard (I'm a fan of
 mechanical keyboards) and, more important, it could split in two halves.
 &lt;/p&gt;
 
 &lt;p&gt;
 After a long wait (its delivery was delayed for more than two years) I can
-say I&#39;m very happy with my acquisition. It&#39;s not the perfect keyboard, but
-it&#39;s quite close. The thing I miss the most from the keyboard are some extra
-keys, like the escape key or the arrow keys, but, since it&#39;s easily configurable
-via an agent provided by the company that make them (it&#39;s available for linux,
-MacOS and Windows, which is something to appreciate), I&#39;ll be doing some changes
+say I'm very happy with my acquisition. It's not the perfect keyboard, but
+it's quite close. The thing I miss the most from the keyboard are some extra
+keys, like the escape key or the arrow keys, but, since it's easily configurable
+via an agent provided by the company that make them (it's available for linux,
+MacOS and Windows, which is something to appreciate), I'll be doing some changes
 in order to be more and more comfortable with it.
 &lt;/p&gt;
 
@@ -42,18 +154,18 @@ same time.
 &lt;/p&gt;
 
 &lt;p&gt;
-I know it&#39;s not a cheap keyboard, but the quality worth it, and the agent, the
+I know it's not a cheap keyboard, but the quality worth it, and the agent, the
 keyboard firmware and its schematics are free (as in Free Software), so you are
 not only buying a great keyboard, but supporting the Free Software and Hardware
 movement, apart from a honest business. I also appreciate a lot the good
 communication the UHK makers have, since they have shared all the process of
-building the keyboard and the different difficulties they have found, it&#39;s
+building the keyboard and the different difficulties they have found, it's
 not common to find a project that open in all their path from the original
 idea to the final product.
 &lt;/p&gt;
 
 &lt;p&gt;
-The only thing I&#39;m waiting now for is the extensions I ordered with the keyboard
+The only thing I'm waiting now for is the extensions I ordered with the keyboard
 itself, one with a trackball to attach the mouse in the keyboard and another
 one with three extra keys that I plan to use to define some macros to make more
 automatic some recurrent tasks.
@@ -79,12 +191,12 @@ Happy Hacking!
       <item>
         <title>Kubernetes preview</title>
         <description>&lt;p&gt;
-  I&#39;ve recently assisted to a O&#39;Reilly training sessions in &lt;a href=&quot;http://safari.oreilly.com&quot;&gt;Safari&lt;/a&gt;
+  I've recently assisted to a O'Reilly training sessions in &lt;a href=&quot;http://safari.oreilly.com&quot;&gt;Safari&lt;/a&gt;
   about Kubernetes and my first impression about the tool is quite good, so I
-  want to review the things I&#39;ve liked more and the things I miss.
+  want to review the things I've liked more and the things I miss.
 &lt;/p&gt;
 &lt;p&gt;
-  For those you don&#39;t know, &lt;a href=&quot;http://kubernetes.io&quot;&gt;Kubernetes&lt;/a&gt; is an
+  For those you don't know, &lt;a href=&quot;http://kubernetes.io&quot;&gt;Kubernetes&lt;/a&gt; is an
   open-source system for automating deployment, scaling, and management of
   containerized applications. It works natively with &lt;a href=&quot;http://docker.io&quot;&gt;Docker&lt;/a&gt;
   to make easy both to deploy new versions of your app and scale them.
@@ -109,16 +221,16 @@ Happy Hacking!
   your secrets.
 &lt;/p&gt;
 &lt;p&gt;
-  The only thing that, for now, I&#39;ve missed is the possibility to define the number
+  The only thing that, for now, I've missed is the possibility to define the number
   of nodes of your application based on the resources of your application in each
   moment, instead of changing the number of nodes by hand when you need it. Maybe
-  it&#39;s a functionality that is already there, but until now I didn&#39;t see the option.
+  it's a functionality that is already there, but until now I didn't see the option.
 &lt;/p&gt;
 &lt;p&gt;
   There are examples on how to use Kubernetes for several applications, like wordpress,
-  postgresql (with one master and one or several slaves), ..., so it shouldn&#39;t be too
-  complicated to set your own configurations for your project. I&#39;ve planned to play more
-  with Kubernetes, so as soon as I have some examples to show I&#39;ll post them in here.
+  postgresql (with one master and one or several slaves), ..., so it shouldn't be too
+  complicated to set your own configurations for your project. I've planned to play more
+  with Kubernetes, so as soon as I have some examples to show I'll post them in here.
 &lt;/p&gt;
 &lt;p&gt;
   Happy Hacking!
@@ -142,21 +254,21 @@ Happy Hacking!
       <item>
         <title>Octopress 3</title>
         <description>&lt;p&gt;
-I have to admit that I&#39;ve been quite lazy the last three years in
-terms of blogging, but I have some time lately and I&#39;ve moved my old
+I have to admit that I've been quite lazy the last three years in
+terms of blogging, but I have some time lately and I've moved my old
 blog to octopress 3.
 &lt;/p&gt;
 
 &lt;p&gt;
-In general looks like it&#39;s easier to work with once is set up
-properly, but there&#39;s not so much documentation as with octopress 2
+In general looks like it's easier to work with once is set up
+properly, but there's not so much documentation as with octopress 2
 and build it up is a little bit more try and error.
 &lt;/p&gt;
 
 &lt;p&gt;
 The basic directory structure is very similar to any other jekyll
 based blog (with directories for include, templates, posts, &amp;#x2026;), but,
-as the oposite you could find in Octopress 2, you don&#39;t have a
+as the oposite you could find in Octopress 2, you don't have a
 Rakefile to build the blog neither a source dir with the sass theme
 and the blog structure. So, if you want to see your changes locally
 you have to run jekyll serve.
@@ -206,14 +318,14 @@ Happy Hacking.
 Hi all!&lt;/p&gt;
 
 &lt;p&gt;
-I had prepared the next entry of the Android testing tutorial, but I&#39;ve found a
+I had prepared the next entry of the Android testing tutorial, but I've found a
 &lt;a href=&quot;http://www.vogella.com/articles/AndroidTesting/article.html&quot;&gt;tutorial&lt;/a&gt; that explains everything about it, even some of the projects that improve
-the Android test environment, so I&#39;ve decided not reinvent the wheel and stop this
-tutorial. It&#39;s true that some parts seems more a summary than a tutorial, but there&#39;s
+the Android test environment, so I've decided not reinvent the wheel and stop this
+tutorial. It's true that some parts seems more a summary than a tutorial, but there's
 nothing essential missing.&lt;/p&gt;
 
 &lt;p&gt;
-I know you will miss my explanations, but, as usual, I don&#39;t have much time and I
+I know you will miss my explanations, but, as usual, I don't have much time and I
 prefer to blog about new things, so sorry about keeping you in the half of the process&lt;/p&gt;
 &lt;p&gt;
 :(.&lt;/p&gt;
@@ -241,14 +353,14 @@ Hi all,&lt;/p&gt;
 
 &lt;p&gt;
 Some days ago the GNU project got 30 years, and, thinking about all the things
-that GNU and the free software have given to us I think it&#39;s time to give them
-a present. It doesn&#39;t have to be money (although they deserve it), but some code,
+that GNU and the free software have given to us I think it's time to give them
+a present. It doesn't have to be money (although they deserve it), but some code,
 an article, an speech explaining the virtues of the free software, or even
 installing a free software to a friend or a family member.&lt;/p&gt;
 
 &lt;p&gt;
-In my case, I&#39;m going to renew my membership to fsfeurope and I&#39;m going to
-publish as free software a project that I&#39;m doing with some partners. And you?
+In my case, I'm going to renew my membership to fsfeurope and I'm going to
+publish as free software a project that I'm doing with some partners. And you?
 Are you going to give a present to GNU/fsf?&lt;/p&gt;
 
 &lt;p&gt;
@@ -271,10 +383,10 @@ Happy Hacking&lt;/p&gt;
 Hi all!&lt;/p&gt;
 
 &lt;p&gt;
-As I promised more than a year ago ;) I&#39;m going to continue the small tutorial about testing
+As I promised more than a year ago ;) I'm going to continue the small tutorial about testing
 on Android. During this year the testing on android has evolved a little bit and now we can
 see projects, like robotium, that, although they have some errors and features not (well)
-covered, helps you a lot in the testing process. Said that, let&#39;s start!&lt;/p&gt;
+covered, helps you a lot in the testing process. Said that, let's start!&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -282,7 +394,7 @@ covered, helps you a lot in the testing process. Said that, let&#39;s start!&lt;
 The first step to test an android application (apart from having the code of the android
 application, of course) is create a test project. For that we are going to use the command line,
 mainly because, although you can use very complete graphical editors that helps you to do much of
-the process automatically, I think it&#39;s important to know where the things come from and why the
+the process automatically, I think it's important to know where the things come from and why the
 things work in that way. So, the command line to create the test project (as we can check &lt;a href=&quot;https://developer.android.com/tools/testing/testing_otheride.html&quot;&gt;here&lt;/a&gt;) is:&lt;/p&gt;
 
 &lt;p&gt;
@@ -293,7 +405,7 @@ Where main-path is the path to the project of the application under test, projec
 of the test project (not the name of the main project) and test-path is the directory where the test
 project is going to be located. A test project depends on the android project that is testing, so is
 going to compile against this project, recompiling (with a little bit of luck) all the source files
-of the original project that needs to (re)compile, that&#39;s why we need to indicate the path of the
+of the original project that needs to (re)compile, that's why we need to indicate the path of the
 main project under test.&lt;/p&gt;
 
 &lt;p&gt;
@@ -304,13 +416,13 @@ version and other for a premium version, or if you have a base test project that
 new applications).&lt;/p&gt;
 
 &lt;p&gt;
-The test project doesn&#39;t need to be located in any specific directory, so you can place it wherever you
-want in your filesystem, but take care if you move the test project and you&#39;ve defined a relative path
-to the main project, because you&#39;d need to update it.&lt;/p&gt;
+The test project doesn't need to be located in any specific directory, so you can place it wherever you
+want in your filesystem, but take care if you move the test project and you've defined a relative path
+to the main project, because you'd need to update it.&lt;/p&gt;
 
 &lt;p&gt;
 If you check the test project just created, you can see that it haves the same directory structure and
-build file contents as regular Android application project. That&#39;s because it&#39;s an actual Android
+build file contents as regular Android application project. That's because it's an actual Android
 application that use the testing and instrumentation framework and depends on other application to run
 (like an application that use a library).&lt;/p&gt;
 
@@ -321,7 +433,7 @@ application at the beginning of each test suite, shutting down the application o
 finished and who runs test by test of each test suite.&lt;/p&gt;
 
 &lt;p&gt;
-Well, that&#39;s enough for today. In the next post I&#39;ll explain the compilation process of a test project
+Well, that's enough for today. In the next post I'll explain the compilation process of a test project
 (checking the options at the compilation files) and how to run both on test in particular and all the
 tests of the test project. In that way you can see the basic structure of a test.&lt;/p&gt;
 
@@ -342,23 +454,23 @@ tests of the test project. In that way you can see the basic structure of a test
       </item>
     
       <item>
-        <title>I&#39;m Back!</title>
+        <title>I'm Back!</title>
         <description>&lt;p&gt;
 Hi all!&lt;/p&gt;
 
 &lt;p&gt;
 I know it hass been more than a year without writing anything, but, between my
-absorving work and the fact that I&#39;m not really good with the written world (and
-a little bit of lazyness, why no admit it), I didn&#39;t found the time to dedicate
+absorving work and the fact that I'm not really good with the written world (and
+a little bit of lazyness, why no admit it), I didn't found the time to dedicate
 to the blog.&lt;/p&gt;
 
 &lt;p&gt;
-Now I&#39;m not going to give promises, but I&#39;m going to try it hard to write at least
-one post per week, and who knows, maybe once I&#39;ve started to write I can write
+Now I'm not going to give promises, but I'm going to try it hard to write at least
+one post per week, and who knows, maybe once I've started to write I can write
 more often and more fluently.&lt;/p&gt;
 
 &lt;p&gt;
-Well, you&#39;ll have notices from me during this week.&lt;/p&gt;
+Well, you'll have notices from me during this week.&lt;/p&gt;
 
 &lt;p&gt;
 Happy Hacking!&lt;/p&gt;
@@ -378,7 +490,7 @@ Happy Hacking!&lt;/p&gt;
 Hi all!&lt;/p&gt;
 
 &lt;p&gt;
-As you might know if you follow my blog I&#39;m working at Schibsted, and
+As you might know if you follow my blog I'm working at Schibsted, and
 one of the projects we are developing is an Android application to
 access to the classifieds websites of the company (like custojusto.pt,
 bomnegocio.com, tori.fi, &amp;#x2026;). One of the ideas that defines our work
@@ -391,7 +503,7 @@ compatibility, and the Android project is not an exception.&lt;/p&gt;
 
 &lt;p&gt;
 Making tests for any Android application (I should say on any mobile
-application, but I&#39;ve only seen Android and IOS) is a pain, and for a
+application, but I've only seen Android and IOS) is a pain, and for a
 lot of reasons, including:&lt;/p&gt;
 
 &lt;ul class=&quot;org-ul&quot;&gt;
@@ -414,12 +526,12 @@ Only this can make the tests veeeeeery slow.&lt;/p&gt;
 &lt;li&gt;The test is a different project running in a different process.
 This means that the test have to compile against the project, so
 every change on the project lead to a clean and recompilation of all
-the tests. That&#39;s because ant is not so good as Makefile checking
+the tests. That's because ant is not so good as Makefile checking
 the dependencies of each file (at least by default in the Android
 projects, I supose it can be quite better if you customize it to
 resolve all your dependencies, but this is not the usual). Sometimes
 even I uninstall all the test project in order to delete from the
-emulator some garbage that adb/android didn&#39;t delete at the
+emulator some garbage that adb/android didn't delete at the
 reinstallation.
 
 &lt;p&gt;
@@ -427,7 +539,7 @@ This also means that the test is responsible of running up the
 applicatiion, set up all the parameters you need and shut down the
 application. This is not bad, but I think the Android sdk should
 include a testing environment capable of setting up and down the
-application by you, so you don&#39;t have to do it in each test.&lt;/p&gt;
+application by you, so you don't have to do it in each test.&lt;/p&gt;
 
 &lt;p&gt;
 Also, you have to know what actions have to be done at the test
@@ -437,26 +549,26 @@ you have to run some action in the application process).&lt;/p&gt;
 
 &lt;p&gt;
 Finally, if your application depends on an external application
-(like the gallery or an email application) it&#39;s almost impossible to
+(like the gallery or an email application) it's almost impossible to
 test this part of the application, because you can test and control
 the application (or process) that you are developing, not an
 external application, so in some cases there are parts of you
-application impossible to test, because it&#39;s not possible (at least
-I didn&#39;t found how) to simulate an external calling.&lt;/p&gt;
+application impossible to test, because it's not possible (at least
+I didn't found how) to simulate an external calling.&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;The documentation about testing is risible.
 Appart of some basic documentation and examples at the official
-&lt;a href=&quot;https://developer.android.com/&quot;&gt;android developers page&lt;/a&gt; there isn&#39;t any documentation of quality
-about the testing process, so it&#39;s very hard to learn how the tests
-works and to make a good testsuite of your Android application. I&#39;ve
+&lt;a href=&quot;https://developer.android.com/&quot;&gt;android developers page&lt;/a&gt; there isn't any documentation of quality
+about the testing process, so it's very hard to learn how the tests
+works and to make a good testsuite of your Android application. I've
 found some posts that even recommend you to test your application
 directly on the physical device :).
 &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;
-For this reasons in the next few days I&#39;m going to make a little
+For this reasons in the next few days I'm going to make a little
 tutorial about how to make some tests to your Android application&lt;/p&gt;
 
 &lt;p&gt;
@@ -482,13 +594,13 @@ Hi all!&lt;/p&gt;
 
 &lt;p&gt;
 We have a new release of Coconet, in this case the version  1.0.2. In
-this step I&#39;ve finished the translations into english of all the code
-(global variables, functions and structs) and I&#39;ve made some extra
+this step I've finished the translations into english of all the code
+(global variables, functions and structs) and I've made some extra
 optimizations of the code (nothing important).&lt;/p&gt;
 
 &lt;p&gt;
-In the next days/weeks (I&#39;ve to work and to advance in other
-projects :)) I&#39;m going to port the project compilation process to
+In the next days/weeks (I've to work and to advance in other
+projects :)) I'm going to port the project compilation process to
 autoconf and automake. I want also to start the refactoring of the
 code to remove at least some of the global variables and make some
 more important optimizations of it.&lt;/p&gt;
@@ -504,49 +616,6 @@ Happy Hacking!!!&lt;/p&gt;
         <pubDate>Tue, 01 May 2012 16:51:00 -0500</pubDate>
         <link>https://blog.ritho.net/projects/coconet/development/2012/05/01/coconet-1.0.2.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/projects/coconet/development/2012/05/01/coconet-1.0.2.html</guid>
-        
-        
-        <category>Projects</category>
-        
-        <category>Coconet</category>
-        
-        <category>Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Coconet 1.0.1 is out!</title>
-        <description>&lt;p&gt;
-Hi all!&lt;/p&gt;
-
-&lt;p&gt;
-Today (well, actually yesterday :)) I&#39;ve launched Coconet 1.0.1, the
-first step to modernize my ending project at the University. In this
-first step I&#39;ve translated the comments and part of the code (it left
-the functions name and the data structures) into english and I&#39;ve made
-some little optimizations. I&#39;ve also structured a little bit the
-project, but I&#39;ve to add some additional information.&lt;/p&gt;
-
-&lt;p&gt;
-My next steps are finishing the translation of all the code, make a
-review of all the code to enhace the design and optimize it, port the
-build of the project to autoconf and automake and make a simple web
-page of the project containing its basic information, some links to
-download the code (as a package and from the repository), &amp;#x2026;&lt;/p&gt;
-
-&lt;p&gt;
-If you want to try the latest stable version you can download it from
-&lt;a href=&quot;https://github.com/i02sopop/coconet/tarball/v1.0.1&quot;&gt;here&lt;/a&gt;, and if
-you want to checkout the code from the repository and collaborate with
-me please visit the &lt;a href=&quot;https://github.com/i02sopop/coconet&quot;&gt;github
-repository page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;
-Happy Hacking!!!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Mar 2012 00:03:00 -0600</pubDate>
-        <link>https://blog.ritho.net/projects/coconet/development/2012/03/04/coconet-1.0.1.html</link>
-        <guid isPermaLink="true">https://blog.ritho.net/projects/coconet/development/2012/03/04/coconet-1.0.1.html</guid>
         
         
         <category>Projects</category>

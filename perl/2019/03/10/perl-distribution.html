@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Org2blog, the emacs blogging experience</title>
-  <meta name="description" content="Hi from Brasil!">
+  <title>How to build your own perl module distribution</title>
+  <meta name="description" content="This is a little guide on how to build a perl module distribution.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-en.html">
+  <link rel="canonical" href="https://blog.ritho.net/perl/2019/03/10/perl-distribution.html">
   <link rel="alternate" type="application/rss+xml" title="Ritho's blog" href="https://blog.ritho.net/feed.xml">
 </head>
 
@@ -160,55 +160,120 @@
     <div class="page-content">
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Org2blog, the emacs blogging experience</h1>
+    <h1 class="post-title" itemprop="name headline">How to build your own perl module distribution</h1>
     <p class="post-meta">
-	  <time datetime="2011-09-14T19:41:00-05:00" itemprop="datePublished">
-		Sep 14, 2011
+	  <time datetime="2019-03-10T00:00:00-06:00" itemprop="datePublished">
+		Mar 10, 2019
 	  </time>
+	  
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+		<span itemprop="name">
+		  Ritho
+		</span>
+	  </span>
 	  
 	</p>
 	<p class="post-meta-right">
-	  Reading in 1 minute
+	  Reading in 3 minutes
 	</p>
   </header>
   <div class="post-content" itemprop="articleBody">
     <p>
-Hi from Brasil!</p>
+Every time I have the chance of programming in Perl I enjoy more, because it's a
+language that adapts to my needs very easily, and sometimes I want to create a
+module to reuse some of the functionality that repeats over and over in my perl
+scripts, but until not long ago I have never known how to prepare my perl modules
+in order to build and install them easily in my computers.
+</p>
 
 <p>
-Some days ago I've discovered a tool that can help me to blog more
-frequently, Org2Blog. It's basically a plugin for the org package to
-publish posts from org files in emacs. I didn't used previously
-org-mode, so I've investigated a bit about it and I found that I can
-use it not only for blog posting, but also to manage your agenda and
-todo list, so I've configured it out and I think I'm going to use it a
-lot.</p>
+Recently I have finished reading the O'Reilly book <a href="https://www.intermediateperl.com/about/">Intermediate Perl</a>, that contains
+a specific chapter on how to build your modules to be able to distribute them and
+another one on how to publish your package in CPAN, so I want to summarize here what
+I have learned in order both to have my own notes and don't forget about it and to
+share my experience with you.
+</p>
 
 <p>
-The blogging part seems to be pretty easy, because you can define your
-post entry with a few and easy to remember tags and it doesn't define
-any weird format to write (like a lot of wiki pages). You only have to
-write your post in <b>plain</b> text and the package manage to convert it
-to your html entry.</p>
+The first thing to do when you want to build your own perl module distribution is
+to initialize the first module you want to develop. For that you can use
+<b><i>module-starter</i></b>, which is a simple starter kit for any module. To install it
+<b><i>CPAN</i></b> is your friend:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">cpan -i Module::Starter
+cpan -i Module::Starter::AddModule
+cpan -i Module::Build
+</pre>
+</div>
 
 <p>
-Although I think you can use it not only for Wordpress, I recomend you
-to search for other packages if you're using other blog engine (for
-example, there is a package that works better with blogger that seems to work
-better than this one).</p>
+Once installed you can use the command <b><i>module-starter</i></b> to create the basic
+structure of the module:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">module-starter --mb --module=<span style="color: #ffa07a;">"ModuleName"</span>
+</pre>
+</div>
 
 <p>
-One of the thinks that I want to try in the next few days is the
-integration of org2blog with atom. This integration is made by other
-package and I couldn't do it work in the last days.</p>
+This command creates a new subdirectory called <b><i>ModuleName</i></b> with the basic
+structure of the module, including the directory <b><i>t</i></b> for tests, the directory
+<b><i>lib</i></b> with the module file <b><i>ModuleName.pm</i></b>, the perl script <b><i>Build.PL</i></b> with
+configurations to generate the module distribution (something like a Makefile) and
+the script <b><i>Build</i></b> to generate the module distribution. To build the module
+itself the most common commands are:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">perl Build.PL
+./Build
+./Build test
+./Build disttest
+./Build dist
+./Build install
+</pre>
+</div>
 
 <p>
-I hope to blog much more with this tool, cause one of the things that
-I hate of blogging is the necessity of being connected and with a
-browser opened to post an entry.</p>
+The first command, <b><i>perl Build.PL</i></b>, is going to update the <b><i>Build</i></b> script
+when any configuration changes (if you add a new module or change the version
+number, for example). After the <b><i>Build</i></b> script is updated you can use it to
+build the module, test it, run the tests for the distribution package, generate
+a distribution package or install it in your system.
+</p>
 
 <p>
-Happy Hacking!</p>
+The module generated with <b><i>module-starter</i></b> have the default structure for any
+perl module, including the <b><i>perldoc</i></b> documentation section, the code that the
+module includes and the end of the module itself, so it's ready for you to add
+the code and put the proper documentation.
+</p>
+
+<p>
+If you want to add a new module to the distribution you can add it with the next
+command:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">module-starter --module=<span style="color: #ffa07a;">"ModuleName2"</span> --dist=.
+</pre>
+</div>
+
+<p>
+As you see, the command is pretty similar to the first one used to generate the
+distribution, but with a new argument, <b><i>&#x2013;dist=.</i></b>, which indicates that the
+module is going to be added to the distribution located in the current directory.
+If you want to see more documentation on the building process you can check the
+<a href="https://metacpan.org/pod/Module::Build">Module::Build documentation</a>, including the configuration options for <b><i>Build.PL</i></b>.
+</p>
+
+<p>
+Once you are happy with your distribution, you can publish it to CPAN, which is
+the subject for the next blog entry.
+</p>
 
   </div>
 </article>
