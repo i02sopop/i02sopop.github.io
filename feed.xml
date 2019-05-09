@@ -7,9 +7,55 @@ In this blog I'll write both technical posts and personal opinions, but I'll try
 </description>
     <link>https://blog.ritho.net/</link>
     <atom:link href="https://blog.ritho.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Mar 2019 23:33:15 -0600</pubDate>
-    <lastBuildDate>Sun, 10 Mar 2019 23:33:15 -0600</lastBuildDate>
+    <pubDate>Thu, 09 May 2019 12:19:17 -0500</pubDate>
+    <lastBuildDate>Thu, 09 May 2019 12:19:17 -0500</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Moving back to Spain</title>
+        <description>&lt;p&gt;
+Hi all,
+&lt;/p&gt;
+
+&lt;p&gt;
+After more than three and a half years in Mexico working at Segundamano Mexico
+I've decided to accept an offer from &lt;a href=&quot;https://www.zaleos.net/&quot;&gt;Zaleos&lt;/a&gt; and come back to Spain. As you may
+know, I've been working at Schibsted (the company that owns Segundamano) for
+eight years, first in Madrid for a period of four years and a half aproximately
+and later in Mexico City for the last three and a half years, and it have been
+an amazing time, both personally (I've meet some great people, some of them
+will remain friends in the future) and personally (I can't even list all the
+things I've learned during this time), but at certain point I felt that I needed
+a new challenge to keep growing professionally, and at the same time I wanted
+to be closer to my family, since we were more than 10000 kms away, and that is
+where Zaleos comes.
+&lt;/p&gt;
+
+&lt;p&gt;
+Zaleos is a software development company that designs and develops ip based solutions
+to provide to the Public Safety sector with the much-needed ability to interface with
+multiple sources of data and receive critical, real-time information from callers in
+need, so I'll be seeing technologies related with VoIP and real time protocols, a
+full new field for me in the working environment, so don't be surprise if I start
+posting entries about real time protocols :).
+&lt;/p&gt;
+
+&lt;p&gt;
+Happy Hacking!
+&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 May 2019 00:00:00 -0500</pubDate>
+        <link>https://blog.ritho.net/general/2019/05/09/moving-back-to-spain.html</link>
+        <guid isPermaLink="true">https://blog.ritho.net/general/2019/05/09/moving-back-to-spain.html</guid>
+        
+        <category>Personal</category>
+        
+        <category>Work</category>
+        
+        
+        <category>General</category>
+        
+      </item>
     
       <item>
         <title>How to build your own perl module distribution</title>
@@ -582,45 +628,6 @@ tutorial about how to make some tests to your Android application&lt;/p&gt;
         <category>Android</category>
         
         <category>Java</category>
-        
-        <category>Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Coconet 1.0.2 is out!</title>
-        <description>&lt;p&gt;
-Hi all!&lt;/p&gt;
-
-&lt;p&gt;
-We have a new release of Coconet, in this case the version  1.0.2. In
-this step I've finished the translations into english of all the code
-(global variables, functions and structs) and I've made some extra
-optimizations of the code (nothing important).&lt;/p&gt;
-
-&lt;p&gt;
-In the next days/weeks (I've to work and to advance in other
-projects :)) I'm going to port the project compilation process to
-autoconf and automake. I want also to start the refactoring of the
-code to remove at least some of the global variables and make some
-more important optimizations of it.&lt;/p&gt;
-
-&lt;p&gt;
-If you want to try the latest stable version you can download it from
-&lt;a href=&quot;https://github.com/i02sopop/coconet/tarball/v1.0.2&quot;&gt;here&lt;/a&gt;, and if you want to checkout the code from the repository and
-collaborate with me please visit the &lt;a href=&quot;https://github.com/i02sopop/coconet&quot;&gt;github repository page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;
-Happy Hacking!!!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 May 2012 16:51:00 -0500</pubDate>
-        <link>https://blog.ritho.net/projects/coconet/development/2012/05/01/coconet-1.0.2.html</link>
-        <guid isPermaLink="true">https://blog.ritho.net/projects/coconet/development/2012/05/01/coconet-1.0.2.html</guid>
-        
-        
-        <category>Projects</category>
-        
-        <category>Coconet</category>
         
         <category>Development</category>
         

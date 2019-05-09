@@ -3,7 +3,7 @@
   <title><![CDATA[General | Ritho's blog]]></title>
   <link href="https://blog.ritho.net/category/general/feed.xml" rel="self"/>
   <link href="https://blog.ritho.net/"/>
-  <updated>2019-03-10T23:33:15-06:00</updated>
+  <updated>2019-05-09T12:19:17-05:00</updated>
   <id>https://blog.ritho.net/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -11,6 +11,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Moving back to Spain]]></title>
+    <link href="https://blog.ritho.net/general/2019/05/09/moving-back-to-spain.html"/>
+    <updated>2019-05-09T00:00:00-05:00</updated>
+    <id>https://blog.ritho.net/general/2019/05/09/moving-back-to-spain</id>
+    <content type="html"><![CDATA[<p>
+Hi all,
+</p>
+
+<p>
+After more than three and a half years in Mexico working at Segundamano Mexico
+I've decided to accept an offer from <a href="https://www.zaleos.net/">Zaleos</a> and come back to Spain. As you may
+know, I've been working at Schibsted (the company that owns Segundamano) for
+eight years, first in Madrid for a period of four years and a half aproximately
+and later in Mexico City for the last three and a half years, and it have been
+an amazing time, both personally (I've meet some great people, some of them
+will remain friends in the future) and personally (I can't even list all the
+things I've learned during this time), but at certain point I felt that I needed
+a new challenge to keep growing professionally, and at the same time I wanted
+to be closer to my family, since we were more than 10000 kms away, and that is
+where Zaleos comes.
+</p>
+
+<p>
+Zaleos is a software development company that designs and develops ip based solutions
+to provide to the Public Safety sector with the much-needed ability to interface with
+multiple sources of data and receive critical, real-time information from callers in
+need, so I'll be seeing technologies related with VoIP and real time protocols, a
+full new field for me in the working environment, so don't be surprise if I start
+posting entries about real time protocols :).
+</p>
+
+<p>
+Happy Hacking!
+</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[I'm Back!]]></title>
@@ -268,89 +306,6 @@ wikipedia <a href="https://secure.wikimedia.org/wikipedia/es/wiki/Movimiento_15-
 P.P.D.: All the ideas I expose here are personal opinions, comming
 only from myself, and here I don't represent any of the organizations
 I belong to.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[#SpanishRevolution, part II]]></title>
-    <link href="https://blog.ritho.net/general/2011/09/14/Spanish-Revolution-II.html"/>
-    <updated>2011-09-14T02:10:00-05:00</updated>
-    <id>https://blog.ritho.net/general/2011/09/14/Spanish-Revolution-II</id>
-    <content type="html"><![CDATA[<p>
-In the <a href="https://blogs.fsfe.org/palvarez/2011/08/19/spanishrevolution-part-i/">first part</a> of this post I've explained the economical situation
-of Spain and how we've reached this situation. Now it's the turn to
-explain a little bit the origins of the Indignados movement ant the
-recent history of the social movements in Spain.</p>
-
-<p>
-The Indignados movement (or #15M) born officially the 15 of May of
-2011, although I think the real begining started before. In order to
-understand better the origins of the #15M it's better to explain a
-little bit the recent phistory of the social movements in Spain.</p>
-
-<p>
-As you might know, before the actual democracy Spain was headed by
-Francisco Franco, a dictator aligned ideologically with Hitler. Some
-years before his dead (1975) the social movements in Spain begans to
-be very strong, and, although they had to be subversive (the
-government was very represive even after the dead of Franco), they
-gain a lot of popularity, specially in the young people.</p>
-
-<p>
-After 1975 and during the 80's Spain became into a cultural and
-political revolution, and a lot of political parties (included PSOE
-and the Comunist Party) and labor unions (CCOO, UGT, CNT, &#x2026;) were
-legalized. This was the golden epoch of the social movements in Spain,
-because a lot of people were conscious that it was important to be
-part of the (not only) political change that was happening in Spain
-and, a very important thing, they were a part of this changes, in part
-because the government were taking them into consideration and making
-changes in the way the social movements were saying.</p>
-
-<p>
-After that, during the final 80s and the 90s the political parties
-forgot about the people and began to govern for themselves and for the
-"markets" (a.k.a the rich people) and the social movements began to
-accommodate, partially because the social situation were much better
-than during the dictatorial period and partially because some state
-mechanisms made the social movements too dependents from the
-government charity, and in the moment that any organization depends
-on the government it has to do some things and leave to do other
-things to please them and survive.</p>
-
-<p>
-I think that the reaction to this circumstances come both from a new
-social movement surged in Spain (and in the world :)), the Free
-Software movement, that has become very strong sice the final 90s, and
-from the deterioration of the spanish life style, specially with the
-actual crisis environment.</p>
-
-<p>
-In the last years we've seen here in Spain a lot of movement against
-the software patents in Europe and agains some copyright laws that
-have emerged in the last years in Spain, and a big part of this
-movement has been lead by hacktivist that have been participated in
-the Free Software movement during several years.</p>
-
-<p>
-This movements have been organized dinamically, without a need of a
-phisical organization, and in several times during a specific period
-of time. This has made that the state, with his old mechanisms of
-working, couldn't stop this kind of organization, that have made the
-enough noise to influence again in the political life of the country
-and in the spanish people.</p>
-
-<p>
-This was the kind of organization of #nolesvotes, the father of
-the #15m (or indignados) movement, who asks to vote in the municipal
-elections to any party but PSOE or PP, rised after the approval of an
-unfair copyright law by the two main political parties of
-Spain. Because of that #nolesvotes gained the support and/or
-comprehension of the population, being, in my point of view, a big
-success.</p>
-
-<p>
-To be continued&#x2026;</p>
 ]]></content>
   </entry>
   
