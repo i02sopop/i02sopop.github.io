@@ -3,7 +3,7 @@
   <title><![CDATA[Development | Ritho's blog]]></title>
   <link href="https://blog.ritho.net/category/development/feed.xml" rel="self"/>
   <link href="https://blog.ritho.net/"/>
-  <updated>2019-05-09T12:19:17-05:00</updated>
+  <updated>2020-03-25T01:43:30+01:00</updated>
   <id>https://blog.ritho.net/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -15,7 +15,7 @@
   <entry>
     <title type="html"><![CDATA[Make tests on Android projects III]]></title>
     <link href="https://blog.ritho.net/android/java/development/2013/10/26/android-testing-III.html"/>
-    <updated>2013-10-26T18:56:00-05:00</updated>
+    <updated>2013-10-26T18:56:00+02:00</updated>
     <id>https://blog.ritho.net/android/java/development/2013/10/26/android-testing-III</id>
     <content type="html"><![CDATA[<p>
 Hi all!</p>
@@ -41,7 +41,7 @@ Happy Hacking!</p>
   <entry>
     <title type="html"><![CDATA[Make tests on Android projects II]]></title>
     <link href="https://blog.ritho.net/android/java/development/2013/09/22/android-testing-II.html"/>
-    <updated>2013-09-22T19:49:00-05:00</updated>
+    <updated>2013-09-22T19:49:00+02:00</updated>
     <id>https://blog.ritho.net/android/java/development/2013/09/22/android-testing-II</id>
     <content type="html"><![CDATA[<p>
 Hi all!</p>
@@ -109,7 +109,7 @@ tests of the test project. In that way you can see the basic structure of a test
   <entry>
     <title type="html"><![CDATA[Make tests on Android projects I]]></title>
     <link href="https://blog.ritho.net/android/java/development/2012/05/01/android-testing.html"/>
-    <updated>2012-05-01T21:45:00-05:00</updated>
+    <updated>2012-05-01T21:45:00+02:00</updated>
     <id>https://blog.ritho.net/android/java/development/2012/05/01/android-testing</id>
     <content type="html"><![CDATA[<p>
 Hi all!</p>
@@ -204,7 +204,7 @@ tutorial about how to make some tests to your Android application</p>
   <entry>
     <title type="html"><![CDATA[Coconet 1.0.2 is out!]]></title>
     <link href="https://blog.ritho.net/projects/coconet/development/2012/05/01/coconet-1.0.2.html"/>
-    <updated>2012-05-01T16:51:00-05:00</updated>
+    <updated>2012-05-01T16:51:00+02:00</updated>
     <id>https://blog.ritho.net/projects/coconet/development/2012/05/01/coconet-1.0.2</id>
     <content type="html"><![CDATA[<p>
 Hi all!</p>
@@ -235,7 +235,7 @@ Happy Hacking!!!</p>
   <entry>
     <title type="html"><![CDATA[Coconet 1.0.1 is out!]]></title>
     <link href="https://blog.ritho.net/projects/coconet/development/2012/03/04/coconet-1.0.1.html"/>
-    <updated>2012-03-04T00:03:00-06:00</updated>
+    <updated>2012-03-04T00:03:00+01:00</updated>
     <id>https://blog.ritho.net/projects/coconet/development/2012/03/04/coconet-1.0.1</id>
     <content type="html"><![CDATA[<p>
 Hi all!</p>

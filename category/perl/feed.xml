@@ -3,7 +3,7 @@
   <title><![CDATA[Perl | Ritho's blog]]></title>
   <link href="https://blog.ritho.net/category/perl/feed.xml" rel="self"/>
   <link href="https://blog.ritho.net/"/>
-  <updated>2019-05-09T12:19:17-05:00</updated>
+  <updated>2020-03-25T01:43:30+01:00</updated>
   <id>https://blog.ritho.net/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -15,27 +15,27 @@
   <entry>
     <title type="html"><![CDATA[How to build your own perl module distribution]]></title>
     <link href="https://blog.ritho.net/perl/2019/03/10/perl-distribution.html"/>
-    <updated>2019-03-10T00:00:00-06:00</updated>
+    <updated>2019-03-10T00:00:00+01:00</updated>
     <id>https://blog.ritho.net/perl/2019/03/10/perl-distribution</id>
     <content type="html"><![CDATA[<p>
-Every time I have the chance of programming in Perl I enjoy more, because it's a
-language that adapts to my needs very easily, and sometimes I want to create a
-module to reuse some of the functionality that repeats over and over in my perl
-scripts, but until not long ago I have never known how to prepare my perl modules
-in order to build and install them easily in my computers.
+Every time I have the chance of programming in Perl, I enjoy it more and more
+because it's a language that adapts to my needs very easily. Sometimes I want to
+create a module to reuse the functionality that repeats over and over in my Perl
+scripts. Still, until not long ago, I have never known how to prepare my Perl
+modules to build and install them easily in my computers.
 </p>
 
 <p>
-Recently I have finished reading the O'Reilly book <a href="https://www.intermediateperl.com/about/">Intermediate Perl</a>, that contains
-a specific chapter on how to build your modules to be able to distribute them and
-another one on how to publish your package in CPAN, so I want to summarize here what
-I have learned in order both to have my own notes and don't forget about it and to
-share my experience with you.
+Recently I have finished reading the O'Reilly book <a href="https://www.intermediateperl.com/about/">Intermediate Perl</a>, which
+contains a specific chapter on how to build your modules to distribute them and
+another one on how to publish your package in CPAN. I want to summarize here what
+I have learned in order both to have my own notes and don't forget about it and
+to share my experience with you.
 </p>
 
 <p>
-The first thing to do when you want to build your own perl module distribution is
-to initialize the first module you want to develop. For that you can use
+The first thing to do when you want to build your own Perl module distribution is
+to initialize the first module you want to develop. For that, you can use
 <b><i>module-starter</i></b>, which is a simple starter kit for any module. To install it
 <b><i>CPAN</i></b> is your friend:
 </p>
@@ -60,14 +60,14 @@ structure of the module:
 <p>
 This command creates a new subdirectory called <b><i>ModuleName</i></b> with the basic
 structure of the module, including the directory <b><i>t</i></b> for tests, the directory
-<b><i>lib</i></b> with the module file <b><i>ModuleName.pm</i></b>, the perl script <b><i>Build.PL</i></b> with
-configurations to generate the module distribution (something like a Makefile) and
-the script <b><i>Build</i></b> to generate the module distribution. To build the module
-itself the most common commands are:
+<b><i>lib</i></b> with the module file <b><i>ModuleName.pm</i></b>, the Perl script <b><i>Build.PL</i></b> with
+configurations to generate the module distribution (something like a Makefile)
+and the script <b><i>Build</i></b> to generate the module distribution. To build the module
+itself, you usually use the following commands are:
 </p>
 
 <div class="org-src-container">
-<pre class="src src-sh">perl Build.PL
+<pre class="src src-sh">Perl Build.PL
 ./Build
 ./Build test
 ./Build disttest
@@ -79,20 +79,20 @@ itself the most common commands are:
 <p>
 The first command, <b><i>perl Build.PL</i></b>, is going to update the <b><i>Build</i></b> script
 when any configuration changes (if you add a new module or change the version
-number, for example). After the <b><i>Build</i></b> script is updated you can use it to
+number, for example). After the <b><i>Build</i></b> script is updated, you can use it to
 build the module, test it, run the tests for the distribution package, generate
 a distribution package or install it in your system.
 </p>
 
 <p>
-The module generated with <b><i>module-starter</i></b> have the default structure for any
-perl module, including the <b><i>perldoc</i></b> documentation section, the code that the
+The module generated with <b><i>module-starter</i></b> has the default structure for any
+Perl module, including the <b><i>perldoc</i></b> documentation section, the code that the
 module includes and the end of the module itself, so it's ready for you to add
 the code and put the proper documentation.
 </p>
 
 <p>
-If you want to add a new module to the distribution you can add it with the next
+If you want to add a new module to the distribution, you can add it with the next
 command:
 </p>
 
@@ -105,13 +105,17 @@ command:
 As you see, the command is pretty similar to the first one used to generate the
 distribution, but with a new argument, <b><i>&#x2013;dist=.</i></b>, which indicates that the
 module is going to be added to the distribution located in the current directory.
-If you want to see more documentation on the building process you can check the
-<a href="https://metacpan.org/pod/Module::Build">Module::Build documentation</a>, including the configuration options for <b><i>Build.PL</i></b>.
+If you want to see more documentation on the building process, you can check the
+<a href="https://metacpan.org/pod/Module::Build">module::Build documentation</a>, including the configuration options for <b><i>Build.PL</i></b>.
 </p>
 
 <p>
 Once you are happy with your distribution, you can publish it to CPAN, which is
-the subject for the next blog entry.
+the subject for a next blog entry.
+</p>
+
+<p>
+Happy Hacking!
 </p>
 ]]></content>
   </entry>

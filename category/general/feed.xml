@@ -3,7 +3,7 @@
   <title><![CDATA[General | Ritho's blog]]></title>
   <link href="https://blog.ritho.net/category/general/feed.xml" rel="self"/>
   <link href="https://blog.ritho.net/"/>
-  <updated>2019-05-09T12:19:17-05:00</updated>
+  <updated>2020-03-25T01:43:30+01:00</updated>
   <id>https://blog.ritho.net/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,35 +13,46 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Moving back to Spain]]></title>
-    <link href="https://blog.ritho.net/general/2019/05/09/moving-back-to-spain.html"/>
-    <updated>2019-05-09T00:00:00-05:00</updated>
-    <id>https://blog.ritho.net/general/2019/05/09/moving-back-to-spain</id>
+    <title type="html"><![CDATA[New job at Lana]]></title>
+    <link href="https://blog.ritho.net/general/2020/01/05/new-job.html"/>
+    <updated>2020-01-05T00:00:00+01:00</updated>
+    <id>https://blog.ritho.net/general/2020/01/05/new-job</id>
     <content type="html"><![CDATA[<p>
-Hi all,
+This year has come with an important change in my working side. In mid January
+I've finished my work relationship with Zaleos, and, since the beginning of
+March, I've started working at Lana.
 </p>
 
 <p>
-After more than three and a half years in Mexico working at Segundamano Mexico
-I've decided to accept an offer from <a href="https://www.zaleos.net/">Zaleos</a> and come back to Spain. As you may
-know, I've been working at Schibsted (the company that owns Segundamano) for
-eight years, first in Madrid for a period of four years and a half aproximately
-and later in Mexico City for the last three and a half years, and it have been
-an amazing time, both personally (I've meet some great people, some of them
-will remain friends in the future) and personally (I can't even list all the
-things I've learned during this time), but at certain point I felt that I needed
-a new challenge to keep growing professionally, and at the same time I wanted
-to be closer to my family, since we were more than 10000 kms away, and that is
-where Zaleos comes.
+As you know, in May I decided to come back to Spain, and I had to thank the
+opportunity to Zaleos. I have learned a lot in Zaleos during the time I've worked
+there, and I think they have a great team. Still, at some point, we had some
+differences in our daily job and, finally, they decided to let me go. I think it
+wasn't an easy decision for them. For me, besides the initial bad sensation (it
+never feels good when any company let you go), I think it was a good decision
+because I wasn't feeling too comfortable either. I think that probably with better
+communication and some work we could make it work. Still, finally, it was their
+decision, and I understand it.
 </p>
 
 <p>
-Zaleos is a software development company that designs and develops ip based solutions
-to provide to the Public Safety sector with the much-needed ability to interface with
-multiple sources of data and receive critical, real-time information from callers in
-need, so I'll be seeing technologies related with VoIP and real time protocols, a
-full new field for me in the working environment, so don't be surprise if I start
-posting entries about real time protocols :).
+On the bride side, I've started working at Lana since the beginning of March as
+Senior Backend Developer. Lana is a Fintech that started inside Cabify with a
+solution to disperse payments to the Cabify drivers, and it has some exciting
+projects to grow the company. The backend stack is done entirely in Golang, using
+technologies like Kubernetes or Elastic Search, and, since it's a new startup,
+there's a lot of exciting work to do. The project has a bit more than two years,
+so you can imagine the amount of work to do and new ideas we want to try. I hope
+not only to learn a lot about technology and the financial business side but also
+aport my knowledge and experience to the project. Since the tech team is split
+into several locations (we have developers in Mexico, Chile, Amsterdam, Madrid,
+Malaga, &#x2026;) I'll keep working from Cordoba, which is good news for me too :).
+</p>
+
+<p>
+I have several pending posts about things I've learned in Zaleos about SIP, and
+I'm sure I'll publish new blog posts related to my current work, so keep in the
+loop.
 </p>
 
 <p>
@@ -51,9 +62,43 @@ Happy Hacking!
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Moving back to Spain]]></title>
+    <link href="https://blog.ritho.net/general/2019/05/09/moving-back-to-spain.html"/>
+    <updated>2019-05-09T00:00:00+02:00</updated>
+    <id>https://blog.ritho.net/general/2019/05/09/moving-back-to-spain</id>
+    <content type="html"><![CDATA[<p>
+Hi all,
+</p>
+
+<p>
+After more than three and a half years in Mexico working at Segundamano Mexico,
+I've decided to accept an offer from <a href="https://www.zaleos.net/">Zaleos</a> and come back to Spain. As you may
+know, I've been working at Schibsted (the company that owns Segundamano) for
+eight years, first in Madrid for four years and a half approximately and later
+in Mexico City for the last three and a half years,. This time has been an
+amazing time, both personally (I've met some great people, some of them will
+remain friends in the future) and professionally (I can't even list all the
+things I've learned during this time). But at a certain point, I felt that I
+needed a new challenge to keep growing professionally. At the same time, I wanted
+to be closer to my family, since we were more than 10000 km away, and that is
+where Zaleos comes.
+</p>
+
+<p>
+Zaleos is a software development company that develops IP based solutions to
+provide to the Public Safety sector with the much-needed ability to interface
+with multiple sources of data and receive critical, real-time information from
+callers in need. I expect to see technologies related to VoIP and real-time
+protocols, a full new field for me in the working environment, so don't be
+surprised if I start posting entries about real-time protocols :).
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[I'm Back!]]></title>
     <link href="https://blog.ritho.net/general/2013/09/17/back.html"/>
-    <updated>2013-09-17T18:42:00-05:00</updated>
+    <updated>2013-09-17T18:42:00+02:00</updated>
     <id>https://blog.ritho.net/general/2013/09/17/back</id>
     <content type="html"><![CDATA[<p>
 Hi all!</p>
@@ -80,7 +125,7 @@ Happy Hacking!</p>
   <entry>
     <title type="html"><![CDATA[Latest adquisitionsn]]></title>
     <link href="https://blog.ritho.net/general/2012/03/03/latest-adquisitions.html"/>
-    <updated>2012-03-03T23:09:00-06:00</updated>
+    <updated>2012-03-03T23:09:00+01:00</updated>
     <id>https://blog.ritho.net/general/2012/03/03/latest-adquisitions</id>
     <content type="html"><![CDATA[<p>
 Hi all!</p>
@@ -116,7 +161,7 @@ Happy Hacking!!!</p>
   <entry>
     <title type="html"><![CDATA[RIP]]></title>
     <link href="https://blog.ritho.net/general/2011/10/30/RIP.html"/>
-    <updated>2011-10-30T03:47:00-06:00</updated>
+    <updated>2011-10-30T03:47:00+01:00</updated>
     <id>https://blog.ritho.net/general/2011/10/30/RIP</id>
     <content type="html"><![CDATA[<p>
 As you may now by now, this month had passed out three important
@@ -167,145 +212,6 @@ better we can.</p>
 
 <p>
 RIP</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[#SpanishRevolution, part III]]></title>
-    <link href="https://blog.ritho.net/general/2011/10/10/Spanish-Revolution-III.html"/>
-    <updated>2011-10-10T00:22:00-05:00</updated>
-    <id>https://blog.ritho.net/general/2011/10/10/Spanish-Revolution-III</id>
-    <content type="html"><![CDATA[<p>
-In the <a href="https://blogs.fsfe.org/palvarez/2011/09/14/spanishrevolution-part-ii/">second part</a> of this post I've explained the recent history and
-evolution of the social movements in Spain. In this post I'm going to
-focus in #15m (or Indignados) movement, how they've started, their
-proposals, things that, <b>IMHO</b>, they've done well, things to improve
-and where they should go.</p>
-
-<p>
-As I said in my previous post, Indignados movement has been influenced
-by the #nolesvotes movement, which shows both how to self-organize in
-a global way (the opposite of the traditional social movements has
-done historically, working at a neighborhood level or, at best, at a
-city level) and how the new technologies can help in this
-self-organization, but, obviously, it's not the only movement that has
-influenced to #15M.</p>
-
-<p>
-In recent years the social movements in Spain have seen a revival in
-grassroots organization, whose work in the neighborhoods has been an
-essential breeding ground for movement #15M. These grassroots
-organizations have a participatory democracy based on people's
-assemblies and consensus decision making. These horizontally
-structured assemblies are completely transparent and open to anyone
-who wants to participate. The groundwork has served not only to learn
-work techniques and methodologies assemblies, but also enabled them to
-know the people, know their concerns and problems and know how to work
-with them.</p>
-
-<p>
-Therefore, having these two movements as parents it's not strange how
-quickly this movement has emerged and spread throughout all the country,
-in a way that only a few people could imagine.</p>
-
-<p>
-On January 2011, the digital platform Democracia real YA (one of the
-main actors in #15M movement) was created on Spanish social networks
-and forums. Having the support of organisations such as ATTAC,
-Intermon Oxfam, Ecologists in Action or Youth without Future, and
-using Twitter and Facebook it called "the unemployed, poorly paid, the
-subcontractors, the precarious, young people&#x2026;" to take the streets
-on 15 May in almost every city in Spain (you have at Wikipedia a
-comprehensive list of all the places that were called to take the
-streets on that day). That same day, small demonstrations in support
-of the Spanish ones were organised in Dublin, Lisbon, Amsterdam,
-Istanbul, Bologna, London and Paris.</p>
-
-<p>
-The first protest was called under the motto "we are not goods in the
-hands of politicians and bankers" and was focused on opposition to
-what the protesters called "antisocial means in the hands of bankers",
-partly referring to the changes made in 2010 to contain the ongoing
-European sovereign debt crisis through bailout of the banks, which the
-Spanish society saw as responsible for the crisis, while at the same
-time the government kept announcing social program cutbacks.
-Protesters also demanded more democracy, a new electoral law and end
-to political corruption as well as other claims, such as banks
-nationalisation.</p>
-
-<p>
-The main demand of #15M is a radical change in Spanish politics, and,
-although #15M is a heterogeneous and ambiguous group, they share a
-strong rejection of unemployment, welfare cuts, Spanish politicians,
-the current two-party system in Spain between the Spanish Socialist
-Workers' Party and the People's Party, as well as the current
-political system, capitalism, banks and bankers, political corruption
-and firmly support what they call basic rights: home, work, culture,
-health and education.</p>
-
-<p>
-As #nolesvotes, they don't consider themselves to be represented by
-any traditional party nor favoured by the measures approved by
-politicians. If you want to know more about the #15M proposals and
-actions you can visit their <a href="http://movimiento15m.org/">official page</a> and read their <a href="http://movimiento15m.org/manifiesto-movimiento-15m-%C2%A1democracia-real-ya/#more-5">manifesto</a>.</p>
-
-<p>
-The impact of #15M has been bigger than anyone thought, because
-according to statistics published by RTVE (the Spanish public
-broadcasting company) between 6.5 and 8 million Spaniards have
-participated in these protests, an unthinkable thing at the beginning
-of the year, and in this kind of things you can't trust the official
-information, so probably the participation has been even more.</p>
-
-<p>
-I think the most important thing that this movement has made is to
-make the spanish population aware that we can change the actual
-situation of our country, because a lot of people didn't think they
-can do something to make a change.</p>
-
-<p>
-Also, I think that #15M can have a life much longer than much people
-can imagine, from one side because the changes they are proposing are
-big ones, and they need time to define both the changes we have to
-make to have a fairly society and the strategy to make this changes
-possible, and from the other side because they have reach a big impact
-in the population, a lot of people has been a part of #15M, and being
-part of a movement like this makes you feel that your contribution is
-important, and, although sometimes you can desperate, this is a
-feeling that once you have it you want to keep it.</p>
-
-<p>
-Seeing the movement from the outside (although I wanted to involve
-myself in the movement I couldn't find the time until now) I think
-that sometimes they've enter in the politician's game more than they
-needs, but, obviously, it's a new and complex situation to handle and
-it can't be perfect.</p>
-
-<p>
-The movement has passed some critical times and situations (like the
-time after the local elections or the Pope visit), and they'll going
-to pass some more critical situations, but I think that the most
-important one is to handle the people's mood (it's a long path and a
-lot of people can desperate).</p>
-
-<p>
-Finally, although the movement can end in nothing, I think that the
-process is very important, not only because we're trying to change
-important thinks, but also because we are changing the point of view
-of a lot of people that, until now, they didn't realize they can make
-a change, and this is the seed of future revolutions.</p>
-
-<p>
-Happy Hacking!</p>
-
-<p>
-P.D.: You can access to information about the 15-M movement at the
-wikipedia <a href="https://secure.wikimedia.org/wikipedia/es/wiki/Movimiento_15-M">here</a>, <a href="https://secure.wikimedia.org/wikipedia/es/wiki/15M">here</a> (in spanish) and <a href="https://secure.wikimedia.org/wikipedia/en/wiki/2011_Spanish_protests">here</a> (in english).</p>
-
-<p>
-P.P.D.: All the ideas I expose here are personal opinions, comming
-only from myself, and here I don't represent any of the organizations
-I belong to.</p>
 ]]></content>
   </entry>
   

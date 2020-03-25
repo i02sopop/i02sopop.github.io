@@ -3,7 +3,7 @@
   <title><![CDATA[Emacs | Ritho's blog]]></title>
   <link href="https://blog.ritho.net/category/emacs/feed.xml" rel="self"/>
   <link href="https://blog.ritho.net/"/>
-  <updated>2019-05-09T12:19:17-05:00</updated>
+  <updated>2020-03-25T01:43:30+01:00</updated>
   <id>https://blog.ritho.net/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -15,50 +15,45 @@
   <entry>
     <title type="html"><![CDATA[Octopress 3]]></title>
     <link href="https://blog.ritho.net/emacs/2016/06/10/octopress-3.html"/>
-    <updated>2016-06-10T00:00:00-05:00</updated>
+    <updated>2016-06-10T00:00:00+02:00</updated>
     <id>https://blog.ritho.net/emacs/2016/06/10/octopress-3</id>
     <content type="html"><![CDATA[<p>
-I have to admit that I've been quite lazy the last three years in
-terms of blogging, but I have some time lately and I've moved my old
-blog to octopress 3.
+I have to admit that I've been quite lazy in the last three years in terms of
+blogging, but recently I had some time, so I've moved my old blog to octopress 3.
 </p>
 
 <p>
-In general looks like it's easier to work with once is set up
-properly, but there's not so much documentation as with octopress 2
-and build it up is a little bit more try and error.
+In general, it looks like it's easier to work with once is set up correctly, but
+there's not so much documentation as with octopress 2 and build it up is a little
+bit more try and error.
 </p>
 
 <p>
-The basic directory structure is very similar to any other jekyll
-based blog (with directories for include, templates, posts, &#x2026;), but,
-as the oposite you could find in Octopress 2, you don't have a
-Rakefile to build the blog neither a source dir with the sass theme
-and the blog structure. So, if you want to see your changes locally
-you have to run jekyll serve.
+The essential directory structure is very similar to any other Jekyll based blog
+(with directories for include, templates, posts, &#x2026;), but, opposite to Octopress
+2, you don't have a Rakefile to build the blog neither a source dir with the sass
+theme and the blog structure. So, if you want to see your changes locally you have
+to run Jekyll serve.
 </p>
 
 <p>
-One of the things that I think they have enhace in Octopress 3 is the
-publishing management, because, instead of using Rake as with
-Octopress 2, they provide a ruby command to manage all that, providing
-octopress new {post|page|draft} to generate a new post, page or
-draft and octopress {publish|unpublish} to publish a draft or
-unpublish a post, so the management of posts is now more easier from
-my point of view. Finally, with octopress deploy you can deploy your
-changes to the final destination (github, another git repo, rsync, S3,
-&#x2026;).
+One of the things that I think they have enhanced in Octopress 3 is the publishing
+management, because, instead of using Rake as with Octopress 2, they provide a ruby
+command to manage all that, providing octopress new {post|page|draft} to generate
+a new post, page or draft and octopress {publish|unpublish} to publish a draft or
+unpublish a post, so the management of posts is now easier from my point of view.
+Finally, with octopress deploy, you can deploy your changes to the final destination
+(Github, another git repo, rsync, S3, &#x2026;).
 </p>
 
 <p>
 You can have more information about Octopress 3 and Jekyll in the
-<a href="https://github.com/octopress/octopress">Octopress 3 github page</a> and in the <a href="https://jekyllrb.com/">Jekyll project page</a>. So, now that I
-have my blog again working and linked with org-octopress I hope I can
-write more often.
+<a href="https://github.com/octopress/octopress">Octopress 3 GitHub page</a> and in the <a href="https://jekyllrb.com/">Jekyll project page</a>. So, now that I have my blog
+again working and linked with org-octopress I hope I can write more often.
 </p>
 
 <p>
-Happy Hacking.
+Happy Hacking!
 </p>
 ]]></content>
   </entry>
@@ -66,7 +61,7 @@ Happy Hacking.
   <entry>
     <title type="html"><![CDATA[Org2blog, la herramienta de emacs para bloguear]]></title>
     <link href="https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-es.html"/>
-    <updated>2011-09-14T19:41:00-05:00</updated>
+    <updated>2011-09-14T19:41:00+02:00</updated>
     <id>https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-es</id>
     <content type="html"><![CDATA[<p>
 ¡Buenas a todos desde Brasil!</p>
@@ -113,7 +108,7 @@ Happy Hacking!</p>
   <entry>
     <title type="html"><![CDATA[Org2blog, the emacs blogging experience]]></title>
     <link href="https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-en.html"/>
-    <updated>2011-09-14T19:41:00-05:00</updated>
+    <updated>2011-09-14T19:41:00+02:00</updated>
     <id>https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-en</id>
     <content type="html"><![CDATA[<p>
 Hi from Brasil!</p>

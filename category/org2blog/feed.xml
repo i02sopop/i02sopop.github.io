@@ -3,7 +3,7 @@
   <title><![CDATA[Org2blog | Ritho's blog]]></title>
   <link href="https://blog.ritho.net/category/org2blog/feed.xml" rel="self"/>
   <link href="https://blog.ritho.net/"/>
-  <updated>2019-05-09T12:19:17-05:00</updated>
+  <updated>2020-03-25T01:43:30+01:00</updated>
   <id>https://blog.ritho.net/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -15,7 +15,7 @@
   <entry>
     <title type="html"><![CDATA[Org2blog, la herramienta de emacs para bloguear]]></title>
     <link href="https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-es.html"/>
-    <updated>2011-09-14T19:41:00-05:00</updated>
+    <updated>2011-09-14T19:41:00+02:00</updated>
     <id>https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-es</id>
     <content type="html"><![CDATA[<p>
 ¡Buenas a todos desde Brasil!</p>
@@ -62,7 +62,7 @@ Happy Hacking!</p>
   <entry>
     <title type="html"><![CDATA[Org2blog, the emacs blogging experience]]></title>
     <link href="https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-en.html"/>
-    <updated>2011-09-14T19:41:00-05:00</updated>
+    <updated>2011-09-14T19:41:00+02:00</updated>
     <id>https://blog.ritho.net/emacs/org2blog/org-mode/2011/09/14/org2blog-en</id>
     <content type="html"><![CDATA[<p>
 Hi from Brasil!</p>

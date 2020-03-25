@@ -7,9 +7,66 @@ In this blog I'll write both technical posts and personal opinions, but I'll try
 </description>
     <link>https://blog.ritho.net/</link>
     <atom:link href="https://blog.ritho.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 May 2019 12:19:17 -0500</pubDate>
-    <lastBuildDate>Thu, 09 May 2019 12:19:17 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Wed, 25 Mar 2020 01:43:30 +0100</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2020 01:43:30 +0100</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>New job at Lana</title>
+        <description>&lt;p&gt;
+This year has come with an important change in my working side. In mid January
+I've finished my work relationship with Zaleos, and, since the beginning of
+March, I've started working at Lana.
+&lt;/p&gt;
+
+&lt;p&gt;
+As you know, in May I decided to come back to Spain, and I had to thank the
+opportunity to Zaleos. I have learned a lot in Zaleos during the time I've worked
+there, and I think they have a great team. Still, at some point, we had some
+differences in our daily job and, finally, they decided to let me go. I think it
+wasn't an easy decision for them. For me, besides the initial bad sensation (it
+never feels good when any company let you go), I think it was a good decision
+because I wasn't feeling too comfortable either. I think that probably with better
+communication and some work we could make it work. Still, finally, it was their
+decision, and I understand it.
+&lt;/p&gt;
+
+&lt;p&gt;
+On the bride side, I've started working at Lana since the beginning of March as
+Senior Backend Developer. Lana is a Fintech that started inside Cabify with a
+solution to disperse payments to the Cabify drivers, and it has some exciting
+projects to grow the company. The backend stack is done entirely in Golang, using
+technologies like Kubernetes or Elastic Search, and, since it's a new startup,
+there's a lot of exciting work to do. The project has a bit more than two years,
+so you can imagine the amount of work to do and new ideas we want to try. I hope
+not only to learn a lot about technology and the financial business side but also
+aport my knowledge and experience to the project. Since the tech team is split
+into several locations (we have developers in Mexico, Chile, Amsterdam, Madrid,
+Malaga, &amp;#x2026;) I'll keep working from Cordoba, which is good news for me too :).
+&lt;/p&gt;
+
+&lt;p&gt;
+I have several pending posts about things I've learned in Zaleos about SIP, and
+I'm sure I'll publish new blog posts related to my current work, so keep in the
+loop.
+&lt;/p&gt;
+
+&lt;p&gt;
+Happy Hacking!
+&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jan 2020 00:00:00 +0100</pubDate>
+        <link>https://blog.ritho.net/general/2020/01/05/new-job.html</link>
+        <guid isPermaLink="true">https://blog.ritho.net/general/2020/01/05/new-job.html</guid>
+        
+        <category>Personal</category>
+        
+        <category>Work</category>
+        
+        
+        <category>General</category>
+        
+      </item>
     
       <item>
         <title>Moving back to Spain</title>
@@ -18,33 +75,29 @@ Hi all,
 &lt;/p&gt;
 
 &lt;p&gt;
-After more than three and a half years in Mexico working at Segundamano Mexico
+After more than three and a half years in Mexico working at Segundamano Mexico,
 I've decided to accept an offer from &lt;a href=&quot;https://www.zaleos.net/&quot;&gt;Zaleos&lt;/a&gt; and come back to Spain. As you may
 know, I've been working at Schibsted (the company that owns Segundamano) for
-eight years, first in Madrid for a period of four years and a half aproximately
-and later in Mexico City for the last three and a half years, and it have been
-an amazing time, both personally (I've meet some great people, some of them
-will remain friends in the future) and personally (I can't even list all the
-things I've learned during this time), but at certain point I felt that I needed
-a new challenge to keep growing professionally, and at the same time I wanted
-to be closer to my family, since we were more than 10000 kms away, and that is
+eight years, first in Madrid for four years and a half approximately and later
+in Mexico City for the last three and a half years,. This time has been an
+amazing time, both personally (I've met some great people, some of them will
+remain friends in the future) and professionally (I can't even list all the
+things I've learned during this time). But at a certain point, I felt that I
+needed a new challenge to keep growing professionally. At the same time, I wanted
+to be closer to my family, since we were more than 10000 km away, and that is
 where Zaleos comes.
 &lt;/p&gt;
 
 &lt;p&gt;
-Zaleos is a software development company that designs and develops ip based solutions
-to provide to the Public Safety sector with the much-needed ability to interface with
-multiple sources of data and receive critical, real-time information from callers in
-need, so I'll be seeing technologies related with VoIP and real time protocols, a
-full new field for me in the working environment, so don't be surprise if I start
-posting entries about real time protocols :).
-&lt;/p&gt;
-
-&lt;p&gt;
-Happy Hacking!
+Zaleos is a software development company that develops IP based solutions to
+provide to the Public Safety sector with the much-needed ability to interface
+with multiple sources of data and receive critical, real-time information from
+callers in need. I expect to see technologies related to VoIP and real-time
+protocols, a full new field for me in the working environment, so don't be
+surprised if I start posting entries about real-time protocols :).
 &lt;/p&gt;
 </description>
-        <pubDate>Thu, 09 May 2019 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 09 May 2019 00:00:00 +0200</pubDate>
         <link>https://blog.ritho.net/general/2019/05/09/moving-back-to-spain.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/general/2019/05/09/moving-back-to-spain.html</guid>
         
@@ -60,24 +113,24 @@ Happy Hacking!
       <item>
         <title>How to build your own perl module distribution</title>
         <description>&lt;p&gt;
-Every time I have the chance of programming in Perl I enjoy more, because it's a
-language that adapts to my needs very easily, and sometimes I want to create a
-module to reuse some of the functionality that repeats over and over in my perl
-scripts, but until not long ago I have never known how to prepare my perl modules
-in order to build and install them easily in my computers.
+Every time I have the chance of programming in Perl, I enjoy it more and more
+because it's a language that adapts to my needs very easily. Sometimes I want to
+create a module to reuse the functionality that repeats over and over in my Perl
+scripts. Still, until not long ago, I have never known how to prepare my Perl
+modules to build and install them easily in my computers.
 &lt;/p&gt;
 
 &lt;p&gt;
-Recently I have finished reading the O'Reilly book &lt;a href=&quot;https://www.intermediateperl.com/about/&quot;&gt;Intermediate Perl&lt;/a&gt;, that contains
-a specific chapter on how to build your modules to be able to distribute them and
-another one on how to publish your package in CPAN, so I want to summarize here what
-I have learned in order both to have my own notes and don't forget about it and to
-share my experience with you.
+Recently I have finished reading the O'Reilly book &lt;a href=&quot;https://www.intermediateperl.com/about/&quot;&gt;Intermediate Perl&lt;/a&gt;, which
+contains a specific chapter on how to build your modules to distribute them and
+another one on how to publish your package in CPAN. I want to summarize here what
+I have learned in order both to have my own notes and don't forget about it and
+to share my experience with you.
 &lt;/p&gt;
 
 &lt;p&gt;
-The first thing to do when you want to build your own perl module distribution is
-to initialize the first module you want to develop. For that you can use
+The first thing to do when you want to build your own Perl module distribution is
+to initialize the first module you want to develop. For that, you can use
 &lt;b&gt;&lt;i&gt;module-starter&lt;/i&gt;&lt;/b&gt;, which is a simple starter kit for any module. To install it
 &lt;b&gt;&lt;i&gt;CPAN&lt;/i&gt;&lt;/b&gt; is your friend:
 &lt;/p&gt;
@@ -102,14 +155,14 @@ structure of the module:
 &lt;p&gt;
 This command creates a new subdirectory called &lt;b&gt;&lt;i&gt;ModuleName&lt;/i&gt;&lt;/b&gt; with the basic
 structure of the module, including the directory &lt;b&gt;&lt;i&gt;t&lt;/i&gt;&lt;/b&gt; for tests, the directory
-&lt;b&gt;&lt;i&gt;lib&lt;/i&gt;&lt;/b&gt; with the module file &lt;b&gt;&lt;i&gt;ModuleName.pm&lt;/i&gt;&lt;/b&gt;, the perl script &lt;b&gt;&lt;i&gt;Build.PL&lt;/i&gt;&lt;/b&gt; with
-configurations to generate the module distribution (something like a Makefile) and
-the script &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; to generate the module distribution. To build the module
-itself the most common commands are:
+&lt;b&gt;&lt;i&gt;lib&lt;/i&gt;&lt;/b&gt; with the module file &lt;b&gt;&lt;i&gt;ModuleName.pm&lt;/i&gt;&lt;/b&gt;, the Perl script &lt;b&gt;&lt;i&gt;Build.PL&lt;/i&gt;&lt;/b&gt; with
+configurations to generate the module distribution (something like a Makefile)
+and the script &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; to generate the module distribution. To build the module
+itself, you usually use the following commands are:
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-sh&quot;&gt;perl Build.PL
+&lt;pre class=&quot;src src-sh&quot;&gt;Perl Build.PL
 ./Build
 ./Build test
 ./Build disttest
@@ -121,20 +174,20 @@ itself the most common commands are:
 &lt;p&gt;
 The first command, &lt;b&gt;&lt;i&gt;perl Build.PL&lt;/i&gt;&lt;/b&gt;, is going to update the &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; script
 when any configuration changes (if you add a new module or change the version
-number, for example). After the &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; script is updated you can use it to
+number, for example). After the &lt;b&gt;&lt;i&gt;Build&lt;/i&gt;&lt;/b&gt; script is updated, you can use it to
 build the module, test it, run the tests for the distribution package, generate
 a distribution package or install it in your system.
 &lt;/p&gt;
 
 &lt;p&gt;
-The module generated with &lt;b&gt;&lt;i&gt;module-starter&lt;/i&gt;&lt;/b&gt; have the default structure for any
-perl module, including the &lt;b&gt;&lt;i&gt;perldoc&lt;/i&gt;&lt;/b&gt; documentation section, the code that the
+The module generated with &lt;b&gt;&lt;i&gt;module-starter&lt;/i&gt;&lt;/b&gt; has the default structure for any
+Perl module, including the &lt;b&gt;&lt;i&gt;perldoc&lt;/i&gt;&lt;/b&gt; documentation section, the code that the
 module includes and the end of the module itself, so it's ready for you to add
 the code and put the proper documentation.
 &lt;/p&gt;
 
 &lt;p&gt;
-If you want to add a new module to the distribution you can add it with the next
+If you want to add a new module to the distribution, you can add it with the next
 command:
 &lt;/p&gt;
 
@@ -147,16 +200,20 @@ command:
 As you see, the command is pretty similar to the first one used to generate the
 distribution, but with a new argument, &lt;b&gt;&lt;i&gt;&amp;#x2013;dist=.&lt;/i&gt;&lt;/b&gt;, which indicates that the
 module is going to be added to the distribution located in the current directory.
-If you want to see more documentation on the building process you can check the
-&lt;a href=&quot;https://metacpan.org/pod/Module::Build&quot;&gt;Module::Build documentation&lt;/a&gt;, including the configuration options for &lt;b&gt;&lt;i&gt;Build.PL&lt;/i&gt;&lt;/b&gt;.
+If you want to see more documentation on the building process, you can check the
+&lt;a href=&quot;https://metacpan.org/pod/Module::Build&quot;&gt;module::Build documentation&lt;/a&gt;, including the configuration options for &lt;b&gt;&lt;i&gt;Build.PL&lt;/i&gt;&lt;/b&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
 Once you are happy with your distribution, you can publish it to CPAN, which is
-the subject for the next blog entry.
+the subject for a next blog entry.
+&lt;/p&gt;
+
+&lt;p&gt;
+Happy Hacking!
 &lt;/p&gt;
 </description>
-        <pubDate>Sun, 10 Mar 2019 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 +0100</pubDate>
         <link>https://blog.ritho.net/perl/2019/03/10/perl-distribution.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/perl/2019/03/10/perl-distribution.html</guid>
         
@@ -172,56 +229,56 @@ the subject for the next blog entry.
       <item>
         <title>UHK Keyboard review</title>
         <description>&lt;p&gt;
-Short after I came to Mexico to work, in December 2015, I found a project in
-Crowd Supply for a new keyboard that draw my attention, the Ultimate Hacking
-Keyboard (a.k.a &lt;a href=&quot;https://ultimatehackingkeyboard.com/&quot;&gt;UHK&lt;/a&gt;), and I decided to buy one. The characteristics that
-impressed me the most were that it was a mechanical keyboard (I'm a fan of
-mechanical keyboards) and, more important, it could split in two halves.
+Short after I came into Mexico to work, in December 2015, I found a project in
+Crowd Supply for a new keyboard that draws my attention, the Ultimate Hacking
+Keyboard (a.k.a &lt;a href=&quot;https://ultimatehackingkeyboard.com/&quot;&gt;UHK&lt;/a&gt;), and I decided to buy one. The characteristics that impressed
+me the most were that it was a mechanical keyboard (I'm a fan of mechanical
+keyboards) and, more important, it could split into two halves.
 &lt;/p&gt;
 
 &lt;p&gt;
-After a long wait (its delivery was delayed for more than two years) I can
-say I'm very happy with my acquisition. It's not the perfect keyboard, but
-it's quite close. The thing I miss the most from the keyboard are some extra
-keys, like the escape key or the arrow keys, but, since it's easily configurable
-via an agent provided by the company that make them (it's available for linux,
-MacOS and Windows, which is something to appreciate), I'll be doing some changes
-in order to be more and more comfortable with it.
+After a long wait (its delivery was delayed for more than two years) I can say
+I'm delighted with my acquisition. It's not the perfect keyboard, but it's quite
+close. What I miss the most from the keyboard is some extra separated keys, like
+the escape key or the arrow keys, but, on the other hand, it's easily configurable
+via its agent, so I'll be doing some changes to be more and more comfortable with
+it. The agent is Free Software, provided by the company that makes the keyboard,
+and available for Linux, macOS and Windows, which is something to appreciate.
 &lt;/p&gt;
 
 &lt;p&gt;
-As I suspected, the fact that is a mechanical keyboard make it very gentle with
-my fingers, and the fact that I can split it and orient it with several sideboards
-make me feel more natural in my posture when I write with the UHK. It also comes
-with a wood palm rest that is comfortable for my wrist, and the size is compact
-but not too small, so I can move it around from my apartment to my office in
-my bag and, at the same time, is not too small that I type several keys at the
-same time.
+As I suspected, the fact that it is a mechanical keyboard makes it very gentle
+with my fingers, and the fact that I can split it and orient it with several
+sideboards makes me feel more natural in my posture when I write with the UHK.
+It also comes with a wood palm rest that is comfortable for my wrist, and the
+size is compact but not too small, so I can move it around from my apartment to
+my office in my bag and, at the same time, is not too small that I type several
+keys at the same time.
 &lt;/p&gt;
 
 &lt;p&gt;
-I know it's not a cheap keyboard, but the quality worth it, and the agent, the
+I know it's not a cheap keyboard. Still, the quality worth it, and the agent, the
 keyboard firmware and its schematics are free (as in Free Software), so you are
-not only buying a great keyboard, but supporting the Free Software and Hardware
-movement, apart from a honest business. I also appreciate a lot the good
-communication the UHK makers have, since they have shared all the process of
-building the keyboard and the different difficulties they have found, it's
-not common to find a project that open in all their path from the original
-idea to the final product.
+not only buying a great keyboard but supporting the Free Software and Hardware
+movement, apart from an honest business. I also appreciate a lot the excellent
+communication the UHK makers do, since they share all the progress of building
+the keyboard and the modules, the difficulties they have found, &amp;#x2026; I can assure
+it's not common to find a project that opens in all their path from the original
+idea of the final product.
 &lt;/p&gt;
 
 &lt;p&gt;
-The only thing I'm waiting now for is the extensions I ordered with the keyboard
-itself, one with a trackball to attach the mouse in the keyboard and another
-one with three extra keys that I plan to use to define some macros to make more
-automatic some recurrent tasks.
+The only thing I'm waiting now for is two extensions I ordered with the keyboard.
+The first one is a trackball to attach the mouse, and the second one is three extra
+keys that I plan to use to define some macros to make more automatic some recurrent
+tasks.
 &lt;/p&gt;
 
 &lt;p&gt;
 Happy Hacking!
 &lt;/p&gt;
 </description>
-        <pubDate>Sat, 15 Sep 2018 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 15 Sep 2018 00:00:00 +0200</pubDate>
         <link>https://blog.ritho.net/uhk/2018/09/15/uhl-keyboard.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/uhk/2018/09/15/uhl-keyboard.html</guid>
         
@@ -282,7 +339,7 @@ Happy Hacking!
   Happy Hacking!
 &lt;/p&gt;
 </description>
-        <pubDate>Sat, 25 Feb 2017 10:20:00 -0600</pubDate>
+        <pubDate>Sat, 25 Feb 2017 10:20:00 +0100</pubDate>
         <link>https://blog.ritho.net/devops/2017/02/25/kubernetes-preview.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/devops/2017/02/25/kubernetes-preview.html</guid>
         
@@ -300,50 +357,45 @@ Happy Hacking!
       <item>
         <title>Octopress 3</title>
         <description>&lt;p&gt;
-I have to admit that I've been quite lazy the last three years in
-terms of blogging, but I have some time lately and I've moved my old
-blog to octopress 3.
+I have to admit that I've been quite lazy in the last three years in terms of
+blogging, but recently I had some time, so I've moved my old blog to octopress 3.
 &lt;/p&gt;
 
 &lt;p&gt;
-In general looks like it's easier to work with once is set up
-properly, but there's not so much documentation as with octopress 2
-and build it up is a little bit more try and error.
+In general, it looks like it's easier to work with once is set up correctly, but
+there's not so much documentation as with octopress 2 and build it up is a little
+bit more try and error.
 &lt;/p&gt;
 
 &lt;p&gt;
-The basic directory structure is very similar to any other jekyll
-based blog (with directories for include, templates, posts, &amp;#x2026;), but,
-as the oposite you could find in Octopress 2, you don't have a
-Rakefile to build the blog neither a source dir with the sass theme
-and the blog structure. So, if you want to see your changes locally
-you have to run jekyll serve.
+The essential directory structure is very similar to any other Jekyll based blog
+(with directories for include, templates, posts, &amp;#x2026;), but, opposite to Octopress
+2, you don't have a Rakefile to build the blog neither a source dir with the sass
+theme and the blog structure. So, if you want to see your changes locally you have
+to run Jekyll serve.
 &lt;/p&gt;
 
 &lt;p&gt;
-One of the things that I think they have enhace in Octopress 3 is the
-publishing management, because, instead of using Rake as with
-Octopress 2, they provide a ruby command to manage all that, providing
-octopress new {post|page|draft} to generate a new post, page or
-draft and octopress {publish|unpublish} to publish a draft or
-unpublish a post, so the management of posts is now more easier from
-my point of view. Finally, with octopress deploy you can deploy your
-changes to the final destination (github, another git repo, rsync, S3,
-&amp;#x2026;).
+One of the things that I think they have enhanced in Octopress 3 is the publishing
+management, because, instead of using Rake as with Octopress 2, they provide a ruby
+command to manage all that, providing octopress new {post|page|draft} to generate
+a new post, page or draft and octopress {publish|unpublish} to publish a draft or
+unpublish a post, so the management of posts is now easier from my point of view.
+Finally, with octopress deploy, you can deploy your changes to the final destination
+(Github, another git repo, rsync, S3, &amp;#x2026;).
 &lt;/p&gt;
 
 &lt;p&gt;
 You can have more information about Octopress 3 and Jekyll in the
-&lt;a href=&quot;https://github.com/octopress/octopress&quot;&gt;Octopress 3 github page&lt;/a&gt; and in the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll project page&lt;/a&gt;. So, now that I
-have my blog again working and linked with org-octopress I hope I can
-write more often.
+&lt;a href=&quot;https://github.com/octopress/octopress&quot;&gt;Octopress 3 GitHub page&lt;/a&gt; and in the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll project page&lt;/a&gt;. So, now that I have my blog
+again working and linked with org-octopress I hope I can write more often.
 &lt;/p&gt;
 
 &lt;p&gt;
-Happy Hacking.
+Happy Hacking!
 &lt;/p&gt;
 </description>
-        <pubDate>Fri, 10 Jun 2016 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 10 Jun 2016 00:00:00 +0200</pubDate>
         <link>https://blog.ritho.net/emacs/2016/06/10/octopress-3.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/emacs/2016/06/10/octopress-3.html</guid>
         
@@ -379,7 +431,7 @@ prefer to blog about new things, so sorry about keeping you in the half of the p
 &lt;p&gt;
 Happy Hacking!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 26 Oct 2013 18:56:00 -0500</pubDate>
+        <pubDate>Sat, 26 Oct 2013 18:56:00 +0200</pubDate>
         <link>https://blog.ritho.net/android/java/development/2013/10/26/android-testing-III.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/android/java/development/2013/10/26/android-testing-III.html</guid>
         
@@ -412,7 +464,7 @@ Are you going to give a present to GNU/fsf?&lt;/p&gt;
 &lt;p&gt;
 Happy Hacking&lt;/p&gt;
 </description>
-        <pubDate>Mon, 30 Sep 2013 00:40:00 -0500</pubDate>
+        <pubDate>Mon, 30 Sep 2013 00:40:00 +0200</pubDate>
         <link>https://blog.ritho.net/gnu/free%20software/2013/09/30/GNU-30-years.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/gnu/free%20software/2013/09/30/GNU-30-years.html</guid>
         
@@ -486,7 +538,7 @@ tests of the test project. In that way you can see the basic structure of a test
 &lt;p&gt;
 &lt;b&gt;To be continued&amp;#x2026;&lt;/b&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 22 Sep 2013 19:49:00 -0500</pubDate>
+        <pubDate>Sun, 22 Sep 2013 19:49:00 +0200</pubDate>
         <link>https://blog.ritho.net/android/java/development/2013/09/22/android-testing-II.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/android/java/development/2013/09/22/android-testing-II.html</guid>
         
@@ -521,115 +573,12 @@ Well, you'll have notices from me during this week.&lt;/p&gt;
 &lt;p&gt;
 Happy Hacking!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 17 Sep 2013 18:42:00 -0500</pubDate>
+        <pubDate>Tue, 17 Sep 2013 18:42:00 +0200</pubDate>
         <link>https://blog.ritho.net/general/2013/09/17/back.html</link>
         <guid isPermaLink="true">https://blog.ritho.net/general/2013/09/17/back.html</guid>
         
         
         <category>General</category>
-        
-      </item>
-    
-      <item>
-        <title>Make tests on Android projects I</title>
-        <description>&lt;p&gt;
-Hi all!&lt;/p&gt;
-
-&lt;p&gt;
-As you might know if you follow my blog I'm working at Schibsted, and
-one of the projects we are developing is an Android application to
-access to the classifieds websites of the company (like custojusto.pt,
-bomnegocio.com, tori.fi, &amp;#x2026;). One of the ideas that defines our work
-method, Extreme Programming, is the continuous integration of the new
-developments (or iterations) of the project, so we have to include
-tests on every project we have in order to check the backward
-compatibility, and the Android project is not an exception.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;
-Making tests for any Android application (I should say on any mobile
-application, but I've only seen Android and IOS) is a pain, and for a
-lot of reasons, including:&lt;/p&gt;
-
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;To test any android application you must have an android environment up and running.
-That means that the tests are going to be slow because they are
-going to run in a complete android environment (that can be a
-virtual machine, an emulator or a real device).
-
-&lt;p&gt;
-It also means that you have to get several environment (android
-version and devices) to test your application, because even with the
-same version of Android the execution can be quite different between
-on device and another (you find differences even between one device
-emulator and the real device!).&lt;/p&gt;
-
-&lt;p&gt;
-Only this can make the tests veeeeeery slow.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;The test is a different project running in a different process.
-This means that the test have to compile against the project, so
-every change on the project lead to a clean and recompilation of all
-the tests. That's because ant is not so good as Makefile checking
-the dependencies of each file (at least by default in the Android
-projects, I supose it can be quite better if you customize it to
-resolve all your dependencies, but this is not the usual). Sometimes
-even I uninstall all the test project in order to delete from the
-emulator some garbage that adb/android didn't delete at the
-reinstallation.
-
-&lt;p&gt;
-This also means that the test is responsible of running up the
-applicatiion, set up all the parameters you need and shut down the
-application. This is not bad, but I think the Android sdk should
-include a testing environment capable of setting up and down the
-application by you, so you don't have to do it in each test.&lt;/p&gt;
-
-&lt;p&gt;
-Also, you have to know what actions have to be done at the test
-process and what actions should be done at the application process
-(or wait until the android test run an exception telling you that
-you have to run some action in the application process).&lt;/p&gt;
-
-&lt;p&gt;
-Finally, if your application depends on an external application
-(like the gallery or an email application) it's almost impossible to
-test this part of the application, because you can test and control
-the application (or process) that you are developing, not an
-external application, so in some cases there are parts of you
-application impossible to test, because it's not possible (at least
-I didn't found how) to simulate an external calling.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;The documentation about testing is risible.
-Appart of some basic documentation and examples at the official
-&lt;a href=&quot;https://developer.android.com/&quot;&gt;android developers page&lt;/a&gt; there isn't any documentation of quality
-about the testing process, so it's very hard to learn how the tests
-works and to make a good testsuite of your Android application. I've
-found some posts that even recommend you to test your application
-directly on the physical device :).
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-For this reasons in the next few days I'm going to make a little
-tutorial about how to make some tests to your Android application&lt;/p&gt;
-
-&lt;p&gt;
-&lt;b&gt;To be continued&amp;#x2026;&lt;/b&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 May 2012 21:45:00 -0500</pubDate>
-        <link>https://blog.ritho.net/android/java/development/2012/05/01/android-testing.html</link>
-        <guid isPermaLink="true">https://blog.ritho.net/android/java/development/2012/05/01/android-testing.html</guid>
-        
-        
-        <category>Android</category>
-        
-        <category>Java</category>
-        
-        <category>Development</category>
         
       </item>
     
