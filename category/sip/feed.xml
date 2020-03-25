@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[SIP | Ritho's blog]]></title>
+  <link href="https://blog.ritho.net/category/sip/feed.xml" rel="self"/>
+  <link href="https://blog.ritho.net/"/>
+  <updated>2020-03-25T04:05:30+01:00</updated>
+  <id>https://blog.ritho.net/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[palvarez@ritho.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What is SIP?]]></title>
+    <link href="https://blog.ritho.net/sip/2020/03/25/sip-basics.html"/>
+    <updated>2020-03-25T00:00:00+01:00</updated>
+    <id>https://blog.ritho.net/sip/2020/03/25/sip-basics</id>
+    <content type="html"><![CDATA[<p>
+During the time I've worked at Zaleos, I've learned a lot about VoIP in general
+and the SIP protocol in particular, so I want to share this knowledge in several
+blog posts. This first post explains what VoIP is and what's the role of SIP in
+it.
+</p>
+
+<p>
+Voice over Internet (VoIP), also called IP telephony, is a group of technologies
+for the delivery of voice communications and multimedia sessions over Internet
+Protocol (IP) networks. VoIP includes several services (voice, fax, SMS,
+voice-messaging, &#x2026;) that communicates over the public Internet rather than via
+the public switched telephone network (PSTN).
+</p>
+
+<p>
+The principles of VoIP telephone calls are similar to traditional telephony and
+involves signalling, channel setup, digitization of the analogue voice signals
+and encoding. Instead of transmitting the call over a circuit-switched network,
+the information is packetized in IP datagrams and transmitted over a packet-switched
+network.
+</p>
+
+<p>
+In the beginning, early providers of VoIP services offered business models and
+technical solutions that mirrored the architecture of the PSTN. After that,
+second-generation providers built closed networks for private user bases, offering
+the benefit of free calls and convenience while potentially charging for access to
+other communication networks, causing a limitation of the freedom of users to
+mix-and-match third-party hardware and software.
+</p>
+
+<p>
+This was the motivation for the third-generation of providers, such as Google Talk,
+that adopted the concept of federated VoIP, separating themselves from the
+architecture of the legacy networks. These solutions allow dynamic interconnections
+between users on any two domains on the Internet when a user wants to make a call.
+</p>
+
+<p>
+Apart from VoIP phones, you can also use personal computers and other Internet
+access devices like your smartphone to make calls and send SMS text messages,
+independently of the type of Internet connection (Wi-Fi, 4G, ethernet, &#x2026;). Because
+of that, we have seen how the communication system have been consolidating, using
+just one application for everything.
+</p>
+
+<p>
+Both for convenience and adaptability, the technologies involved in VoIP are usually
+separated into session handling and multimedia streaming technologies. That made
+arise many standards both for multimedia streaming and signalling that can be
+combined in several ways depending on the requirements of the system built.
+</p>
+
+<p>
+For the transport of the multimedia streams, VoIP can use several media delivery
+protocols that encode audio and video by the use of specific codecs, optimizing the
+media stream based on the application requirements and network bandwidth. While some
+implementations rely on narrowband and compressed speech, others support high-fidelity
+stereo codecs.
+</p>
+
+<p>
+Since the multimedia streaming and their coding standards are a whole world by
+themselves, we're not going to go deeper in this post describing the different
+existing codecs for audio and video and how they work, we leave it for a future
+post.
+</p>
+
+<p>
+Although in VoIP you can use TCP and UDP to transport the data, most of the times
+it's used UDP, which doesn't guarantee the packet delivery nor the order of the
+packet arrival. To guarantee a good quality of transmission, the standards
+organizations have defined several protocols on top of UDP. The most used one for
+media streaming is the Real Time Protocol (RTP), which implements part of the
+capabilities that have TCP but oriented to media streaming.
+</p>
+
+<p>
+There are also several protocols available and standardized among the years to
+handle the session, but SIP is the most widely used protocol because of its
+simplicity and extensibility. With the Session Initiation Protocol we can establish
+the session, route the messages to the participants, negotiate the media transmission
+(codecs, protocols, &#x2026;) and finish the session.
+</p>
+
+<p>
+This separation between the session managing and the media streaming makes easy
+changing the media capabilities, like adding or removing video to the streaming,
+changing the media codecs to use or the video quality or adding new participants
+to the call.
+</p>
+
+<p>
+Once we have seen what's SIP and what is his role in the VoIP world, in the next
+post we'll see the main SIP messages needed to initialize a session and what is
+the primary format for a SIP message.
+</p>
+
+<p>
+Happy Hacking!
+</p>
+]]></content>
+  </entry>
+  
+</feed>

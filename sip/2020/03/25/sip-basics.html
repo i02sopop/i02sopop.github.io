@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Kubernetes preview</title>
-  <meta name="description" content="  I've recently assisted to a O'Reilly training sessions in Safari  about Kubernetes and my first impression about the tool is quite good, so I  want to revi...">
+  <title>What is SIP?</title>
+  <meta name="description" content="In this post we'll see what is SIP and which is his role in VoIP.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://blog.ritho.net/devops/2017/02/25/kubernetes-preview.html">
+  <link rel="canonical" href="https://blog.ritho.net/sip/2020/03/25/sip-basics.html">
   <link rel="alternate" type="application/rss+xml" title="Ritho's blog" href="https://blog.ritho.net/feed.xml">
 </head>
 
@@ -170,62 +170,125 @@
     <div class="page-content">
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Kubernetes preview</h1>
+    <h1 class="post-title" itemprop="name headline">What is SIP?</h1>
     <p class="post-meta">
-	  <time datetime="2017-02-25T10:20:00+01:00" itemprop="datePublished">
-		Feb 25, 2017
+	  <time datetime="2020-03-25T00:00:00+01:00" itemprop="datePublished">
+		Mar 25, 2020
 	  </time>
+	  
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+		<span itemprop="name">
+		  Ritho
+		</span>
+	  </span>
 	  
 	</p>
 	<p class="post-meta-right">
-	  Reading in 2 minutes
+	  Reading in 3 minutes
 	</p>
   </header>
   <div class="post-content" itemprop="articleBody">
     <p>
-  I've recently assisted to a O'Reilly training sessions in <a href="http://safari.oreilly.com">Safari</a>
-  about Kubernetes and my first impression about the tool is quite good, so I
-  want to review the things I've liked more and the things I miss.
+During the time I've worked at Zaleos, I've learned a lot about VoIP in general
+and the SIP protocol in particular, so I want to share this knowledge in several
+blog posts. This first post explains what VoIP is and what's the role of SIP in
+it.
 </p>
+
 <p>
-  For those you don't know, <a href="http://kubernetes.io">Kubernetes</a> is an
-  open-source system for automating deployment, scaling, and management of
-  containerized applications. It works natively with <a href="http://docker.io">Docker</a>
-  to make easy both to deploy new versions of your app and scale them.
+Voice over Internet (VoIP), also called IP telephony, is a group of technologies
+for the delivery of voice communications and multimedia sessions over Internet
+Protocol (IP) networks. VoIP includes several services (voice, fax, SMS,
+voice-messaging, &#x2026;) that communicates over the public Internet rather than via
+the public switched telephone network (PSTN).
 </p>
+
 <p>
-  Although it was originally developed by Google (based on their internal project
-  Borg), now is one of the most important projects for deployment projects with
-  Apache Mesos and several of the big software companies apport to the project.
+The principles of VoIP telephone calls are similar to traditional telephony and
+involves signalling, channel setup, digitization of the analogue voice signals
+and encoding. Instead of transmitting the call over a circuit-switched network,
+the information is packetized in IP datagrams and transmitted over a packet-switched
+network.
 </p>
+
 <p>
-  One of the things I like of the project is that is quite easy to setup a Kubernetes
-  cluster in different environments (you can use it in the cloud on AWS and Google
-  Cloud or in local with tools like minikube), and you can manage it both with a web
-  interface or in the terminal, make it easier to make scripts to deploy new versions
-  of your application.
+In the beginning, early providers of VoIP services offered business models and
+technical solutions that mirrored the architecture of the PSTN. After that,
+second-generation providers built closed networks for private user bases, offering
+the benefit of free calls and convenience while potentially charging for access to
+other communication networks, causing a limitation of the freedom of users to
+mix-and-match third-party hardware and software.
 </p>
+
 <p>
-  The interface and commands seems to be quite easy to use, and the configurations,
-  defined in yaml, are also quite straightforward to use. I particularly like how
-  they give you the possibility of defining secrets for your application, so you can
-  have the general configurations on your repository/docker image and keep safe
-  your secrets.
+This was the motivation for the third-generation of providers, such as Google Talk,
+that adopted the concept of federated VoIP, separating themselves from the
+architecture of the legacy networks. These solutions allow dynamic interconnections
+between users on any two domains on the Internet when a user wants to make a call.
 </p>
+
 <p>
-  The only thing that, for now, I've missed is the possibility to define the number
-  of nodes of your application based on the resources of your application in each
-  moment, instead of changing the number of nodes by hand when you need it. Maybe
-  it's a functionality that is already there, but until now I didn't see the option.
+Apart from VoIP phones, you can also use personal computers and other Internet
+access devices like your smartphone to make calls and send SMS text messages,
+independently of the type of Internet connection (Wi-Fi, 4G, ethernet, &#x2026;). Because
+of that, we have seen how the communication system have been consolidating, using
+just one application for everything.
 </p>
+
 <p>
-  There are examples on how to use Kubernetes for several applications, like wordpress,
-  postgresql (with one master and one or several slaves), ..., so it shouldn't be too
-  complicated to set your own configurations for your project. I've planned to play more
-  with Kubernetes, so as soon as I have some examples to show I'll post them in here.
+Both for convenience and adaptability, the technologies involved in VoIP are usually
+separated into session handling and multimedia streaming technologies. That made
+arise many standards both for multimedia streaming and signalling that can be
+combined in several ways depending on the requirements of the system built.
 </p>
+
 <p>
-  Happy Hacking!
+For the transport of the multimedia streams, VoIP can use several media delivery
+protocols that encode audio and video by the use of specific codecs, optimizing the
+media stream based on the application requirements and network bandwidth. While some
+implementations rely on narrowband and compressed speech, others support high-fidelity
+stereo codecs.
+</p>
+
+<p>
+Since the multimedia streaming and their coding standards are a whole world by
+themselves, we're not going to go deeper in this post describing the different
+existing codecs for audio and video and how they work, we leave it for a future
+post.
+</p>
+
+<p>
+Although in VoIP you can use TCP and UDP to transport the data, most of the times
+it's used UDP, which doesn't guarantee the packet delivery nor the order of the
+packet arrival. To guarantee a good quality of transmission, the standards
+organizations have defined several protocols on top of UDP. The most used one for
+media streaming is the Real Time Protocol (RTP), which implements part of the
+capabilities that have TCP but oriented to media streaming.
+</p>
+
+<p>
+There are also several protocols available and standardized among the years to
+handle the session, but SIP is the most widely used protocol because of its
+simplicity and extensibility. With the Session Initiation Protocol we can establish
+the session, route the messages to the participants, negotiate the media transmission
+(codecs, protocols, &#x2026;) and finish the session.
+</p>
+
+<p>
+This separation between the session managing and the media streaming makes easy
+changing the media capabilities, like adding or removing video to the streaming,
+changing the media codecs to use or the video quality or adding new participants
+to the call.
+</p>
+
+<p>
+Once we have seen what's SIP and what is his role in the VoIP world, in the next
+post we'll see the main SIP messages needed to initialize a session and what is
+the primary format for a SIP message.
+</p>
+
+<p>
+Happy Hacking!
 </p>
 
   </div>

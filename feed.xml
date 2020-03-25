@@ -7,9 +7,129 @@ In this blog I'll write both technical posts and personal opinions, but I'll try
 </description>
     <link>https://blog.ritho.net/</link>
     <atom:link href="https://blog.ritho.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2020 02:10:50 +0100</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2020 02:10:50 +0100</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2020 04:05:30 +0100</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2020 04:05:30 +0100</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>What is SIP?</title>
+        <description>&lt;p&gt;
+During the time I've worked at Zaleos, I've learned a lot about VoIP in general
+and the SIP protocol in particular, so I want to share this knowledge in several
+blog posts. This first post explains what VoIP is and what's the role of SIP in
+it.
+&lt;/p&gt;
+
+&lt;p&gt;
+Voice over Internet (VoIP), also called IP telephony, is a group of technologies
+for the delivery of voice communications and multimedia sessions over Internet
+Protocol (IP) networks. VoIP includes several services (voice, fax, SMS,
+voice-messaging, &amp;#x2026;) that communicates over the public Internet rather than via
+the public switched telephone network (PSTN).
+&lt;/p&gt;
+
+&lt;p&gt;
+The principles of VoIP telephone calls are similar to traditional telephony and
+involves signalling, channel setup, digitization of the analogue voice signals
+and encoding. Instead of transmitting the call over a circuit-switched network,
+the information is packetized in IP datagrams and transmitted over a packet-switched
+network.
+&lt;/p&gt;
+
+&lt;p&gt;
+In the beginning, early providers of VoIP services offered business models and
+technical solutions that mirrored the architecture of the PSTN. After that,
+second-generation providers built closed networks for private user bases, offering
+the benefit of free calls and convenience while potentially charging for access to
+other communication networks, causing a limitation of the freedom of users to
+mix-and-match third-party hardware and software.
+&lt;/p&gt;
+
+&lt;p&gt;
+This was the motivation for the third-generation of providers, such as Google Talk,
+that adopted the concept of federated VoIP, separating themselves from the
+architecture of the legacy networks. These solutions allow dynamic interconnections
+between users on any two domains on the Internet when a user wants to make a call.
+&lt;/p&gt;
+
+&lt;p&gt;
+Apart from VoIP phones, you can also use personal computers and other Internet
+access devices like your smartphone to make calls and send SMS text messages,
+independently of the type of Internet connection (Wi-Fi, 4G, ethernet, &amp;#x2026;). Because
+of that, we have seen how the communication system have been consolidating, using
+just one application for everything.
+&lt;/p&gt;
+
+&lt;p&gt;
+Both for convenience and adaptability, the technologies involved in VoIP are usually
+separated into session handling and multimedia streaming technologies. That made
+arise many standards both for multimedia streaming and signalling that can be
+combined in several ways depending on the requirements of the system built.
+&lt;/p&gt;
+
+&lt;p&gt;
+For the transport of the multimedia streams, VoIP can use several media delivery
+protocols that encode audio and video by the use of specific codecs, optimizing the
+media stream based on the application requirements and network bandwidth. While some
+implementations rely on narrowband and compressed speech, others support high-fidelity
+stereo codecs.
+&lt;/p&gt;
+
+&lt;p&gt;
+Since the multimedia streaming and their coding standards are a whole world by
+themselves, we're not going to go deeper in this post describing the different
+existing codecs for audio and video and how they work, we leave it for a future
+post.
+&lt;/p&gt;
+
+&lt;p&gt;
+Although in VoIP you can use TCP and UDP to transport the data, most of the times
+it's used UDP, which doesn't guarantee the packet delivery nor the order of the
+packet arrival. To guarantee a good quality of transmission, the standards
+organizations have defined several protocols on top of UDP. The most used one for
+media streaming is the Real Time Protocol (RTP), which implements part of the
+capabilities that have TCP but oriented to media streaming.
+&lt;/p&gt;
+
+&lt;p&gt;
+There are also several protocols available and standardized among the years to
+handle the session, but SIP is the most widely used protocol because of its
+simplicity and extensibility. With the Session Initiation Protocol we can establish
+the session, route the messages to the participants, negotiate the media transmission
+(codecs, protocols, &amp;#x2026;) and finish the session.
+&lt;/p&gt;
+
+&lt;p&gt;
+This separation between the session managing and the media streaming makes easy
+changing the media capabilities, like adding or removing video to the streaming,
+changing the media codecs to use or the video quality or adding new participants
+to the call.
+&lt;/p&gt;
+
+&lt;p&gt;
+Once we have seen what's SIP and what is his role in the VoIP world, in the next
+post we'll see the main SIP messages needed to initialize a session and what is
+the primary format for a SIP message.
+&lt;/p&gt;
+
+&lt;p&gt;
+Happy Hacking!
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Mar 2020 00:00:00 +0100</pubDate>
+        <link>https://blog.ritho.net/sip/2020/03/25/sip-basics.html</link>
+        <guid isPermaLink="true">https://blog.ritho.net/sip/2020/03/25/sip-basics.html</guid>
+        
+        <category>SIP</category>
+        
+        <category>VoIP</category>
+        
+        <category>Work</category>
+        
+        
+        <category>SIP</category>
+        
+      </item>
     
       <item>
         <title>New job at Lana</title>
@@ -55,9 +175,9 @@ loop.
 Happy Hacking!
 &lt;/p&gt;
 </description>
-        <pubDate>Wed, 25 Mar 2020 00:00:00 +0100</pubDate>
-        <link>https://blog.ritho.net/general/2020/03/25/new-job.html</link>
-        <guid isPermaLink="true">https://blog.ritho.net/general/2020/03/25/new-job.html</guid>
+        <pubDate>Tue, 24 Mar 2020 00:00:00 +0100</pubDate>
+        <link>https://blog.ritho.net/general/2020/03/24/new-job.html</link>
+        <guid isPermaLink="true">https://blog.ritho.net/general/2020/03/24/new-job.html</guid>
         
         <category>Personal</category>
         
@@ -548,37 +668,6 @@ tests of the test project. In that way you can see the basic structure of a test
         <category>Java</category>
         
         <category>Development</category>
-        
-      </item>
-    
-      <item>
-        <title>I'm Back!</title>
-        <description>&lt;p&gt;
-Hi all!&lt;/p&gt;
-
-&lt;p&gt;
-I know it hass been more than a year without writing anything, but, between my
-absorving work and the fact that I'm not really good with the written world (and
-a little bit of lazyness, why no admit it), I didn't found the time to dedicate
-to the blog.&lt;/p&gt;
-
-&lt;p&gt;
-Now I'm not going to give promises, but I'm going to try it hard to write at least
-one post per week, and who knows, maybe once I've started to write I can write
-more often and more fluently.&lt;/p&gt;
-
-&lt;p&gt;
-Well, you'll have notices from me during this week.&lt;/p&gt;
-
-&lt;p&gt;
-Happy Hacking!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Sep 2013 18:42:00 +0200</pubDate>
-        <link>https://blog.ritho.net/general/2013/09/17/back.html</link>
-        <guid isPermaLink="true">https://blog.ritho.net/general/2013/09/17/back.html</guid>
-        
-        
-        <category>General</category>
         
       </item>
     
